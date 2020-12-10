@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Smiley Guy Studios', // Usually your GitHub org/user name.
-  projectName: 'Animan Doc', // Usually your repo name.
+  projectName: 'animan-doc', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Animan Doc',
