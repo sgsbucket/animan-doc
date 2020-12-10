@@ -1,13 +1,13 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Animan Doc',
+  tagline: 'animation studio management',
+  url: 'https://github.com/sgsbucket/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Smiley Guy Studios', // Usually your GitHub org/user name.
+  projectName: 'Animan Doc', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Animan Doc',
@@ -36,29 +36,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Animan',
+              to: 'animan/intro',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Renderman',
+              to: 'renderman/intro',
             },
           ],
         },
@@ -66,12 +49,12 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Smiley Guy Studios',
+              href: 'https://smileyguystudios.com/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Animan App',
+              href: 'https://animan.smileyguystudios.com',
             },
           ],
         },
@@ -89,12 +72,6 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/sgsbucket/animan-doc/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/sgsbucket/animan-doc/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
