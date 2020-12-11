@@ -37,7 +37,8 @@ module.exports = {
           items: [
             {
               label: 'Animan',
-              to: 'intro',
+              type: 'doc',
+              to: '/',
             },
             {
               label: 'Renderman',

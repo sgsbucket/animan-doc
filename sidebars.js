@@ -4,7 +4,10 @@ module.exports = {
       type: 'category',
       label: 'Animan',
       items: [
-        'intro',
+        {
+          type: 'doc',
+          id: 'intro',
+        },
         'animan/member',
         {
           type: 'category',
