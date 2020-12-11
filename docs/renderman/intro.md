@@ -2,12 +2,57 @@
 title: This is Document Number 3
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Renderman is a companion app to animan. It runs on a local ‘render’ pc controlled by your studio.
+It produces production video as instructed by animan.
+It also renders preview images and thumnails of the resources and shots that are hosted on the animan server.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+## Installation
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+Your customer support team member will provide you with the latest installer for renderman.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+1. Copy the renderman installer to a folder.
+   > Everything that renderman produces will be stored in this folder, so be sure to choose a folder that can hold 2 TB of files.
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+1. Run the installer.
+   > Once the installation complete, it brings up a console page on the default browser.
+   The url is http://localhost:8991 You can check the status of renderman on this page.
+
+## Upload Cutup of a episode
+1. On renderman page, click “Cutup” to open the cutup page.
+1. Choose the xml and mp4/mov of the cutup.
+1. Click “Upload” to start
+1. Once the process completes, the system will send you an email.
+
+There are options that you can specify before uploading the cutup
+
+- Split Videos Only
+  > Check this option will make the process only prepare all the resources of the cutup, including thumbnails, animatic.mp4, audio.wav and json files of all the shots, but it will not be uploaded to server.
+
+- Allow Custom FPS
+  > If unchecked, the cutup process will not proceed if the FPS detected is neither 23.97 nor 29.97.
+
+## Customized Rendering
+You can make a render of a series of shots into one movie.
+
+1. On renderman page, click “Custom Render” to open the rendering page.
+1. Choose a show from the dropdown menu.
+1. Select an episode
+1. You can optionally pick an Act/Scene/Shot
+1. Click “Start Render”
+
+Options are:
+
+- Codec
+  > Choose a codec to render
+  :::info
+  This option shows when the target movie contains only one shot.
+  :::
+
+# Export Show
+You can export a backup of a show to a folder on the renderman pc. The backup includes resource / shot files and a json of all resources info.
+
+Options are:
+
+- Include old versions of files
+  > By default, the function exports only the latest file of each resource. Check this options to include all versions of the resources.
+
