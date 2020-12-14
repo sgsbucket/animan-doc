@@ -60,4 +60,3 @@ You can change either the animatic.mp4 or audio.wav or both.
 If the new wav or mp4 has a different length, you must provide both animatic.mp4 and audio.wav and
 provide the correct frame number in the **Frames** field.
 
-

@@ -8,7 +8,15 @@ module.exports = {
           type: 'doc',
           id: 'intro',
         },
-        'animan/member',
+        {
+          type: 'category',
+          label: 'Members',
+          items: [
+            'animan/member',
+            'animan/quota',
+            'animan/member_preference',
+          ],
+        },
         {
           type: 'category',
           label: 'Shows',
@@ -17,6 +25,8 @@ module.exports = {
             'animan/episode',
             'animan/category',
             'animan/resource',
+            'animan/episode_progress',
+            'animan/render_progress',
           ],
         },
       ]

@@ -1,5 +1,5 @@
 ---
-title: This is Document Number 3
+title: Renderman
 ---
 
 Renderman is a companion app to animan. It runs on a local ‘render’ pc controlled by your studio.
