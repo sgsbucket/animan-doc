@@ -35,7 +35,10 @@ module.exports = {
       type: 'category',
       label: 'Renderman',
       items: [
-        'renderman/intro'
+        'renderman/intro',
+        'renderman/upload_cutup',
+        'renderman/custom_rendering',
+        'renderman/export_show',
       ]
     },
   ],
