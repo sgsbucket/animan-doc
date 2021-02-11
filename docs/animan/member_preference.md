@@ -1,6 +1,8 @@
 ---
 title: Preferences
 ---
+import Icon from "@material-ui/core/Icon";
+import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 A member can change some preferences or account information.
 
@@ -9,6 +11,12 @@ A member can change some preferences or account information.
 :::info
 - Location: Profile page
 :::
+
+<Screenshot image="/screenshot/profile_preferences.png">
+    <ScreenshotMark x="14.5%" y="9.8%" width="26%" height="7%" textPosition="right" borderRadius="10px">
+    Click to open the dialog
+    </ScreenshotMark>
+</Screenshot>
 
 There are two options for each show to toggle:
 
@@ -32,6 +40,12 @@ There are two options for each show to toggle:
 ## Request Account Change
 
 A user can change his gmail account that is used on Animan.
+
+<Screenshot image="/screenshot/profile_user.png">
+    <ScreenshotMark x="78.5%" y="20%" width="22%" height="14%" textPosition="bottom" borderRadius="10px">
+    Click to start the process
+    </ScreenshotMark>
+</Screenshot>
 
 #### Steps:
 
