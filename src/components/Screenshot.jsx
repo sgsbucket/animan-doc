@@ -26,3 +26,11 @@ export const ScreenshotMark = ({ children, x, y, width, height, textPosition, fo
         </div>
     )
 };
+
+export const ScreenshotComment = ({ children }) => {
+    return (
+        <div className="screenshot-comment">
+            {children}
+        </div>
+    )
+};

@@ -29,6 +29,8 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 10px;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .screenshot-mark {
@@ -80,4 +82,11 @@
   top: calc(100%);
   left: 0;
   margin-top: 10px;
+}
+
+.screenshot-comment {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  background-color: rgba(128,128,128,0.25);
 }

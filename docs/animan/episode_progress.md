@@ -1,6 +1,8 @@
 ---
 title: Episode Progress
 ---
+import Icon from "@material-ui/core/Icon";
+import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 :::info
 - Location: (page) episode / (tab) progress

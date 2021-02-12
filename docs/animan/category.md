@@ -2,13 +2,11 @@
 title: Resource Category
 ---
 import Icon from "@material-ui/core/Icon";
-import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
+import { Screenshot, ScreenshotMark, ScreenshotComment } from "../../src/components/Screenshot"
 
 Resource Category is a set of meta data that defines a resource that belongs to the category.
 
 To open a category page, select a show, tab to **Resource Category**, and click one of the categories from the list.
-
-
 
 <Screenshot image="/screenshot/resource_category_list.png">
   <ScreenshotMark x="96.3%" y="44.5%" width={40} height={40} textPosition="left">Create asset-type resource</ScreenshotMark>
@@ -74,6 +72,10 @@ The stage color.
 In some overview pages, the stage color can help supervisors quickly understand the progress of
 different sections of the shots.
 
+<Screenshot image="/screenshot/episode_work_progress.png">
+  <ScreenshotComment>Work progress page of an episode</ScreenshotComment>
+</Screenshot>
+
 #### Reviewer
 Define the users who has the privilege to review the stage.
 
@@ -87,7 +89,10 @@ Define the users who are the candidates for assigner to assign work.
 ## How the stage work
 
 When a resource is created, it is set to its initial stage that is defined in its resource category.
-Uses can control the stage movement in the resource page or shot page.
+Users can control the stage movement in the resource page or shot page.
+
+<Screenshot image="/screenshot/resource_stages_box.png">
+</Screenshot>
 
 ### Admin stage
 If it is an admin stage, an admin user can add reference resources, add instructions, upload a template file.
@@ -111,3 +116,6 @@ If the work needs more tweak, the reviewer can click the <Icon>menu</Icon> butto
 back to its previous stage, so the worker of that stage can do a revision.
 
 Once the work looks good, the reviewer can click the <Icon>menu</Icon> button and select "Approve <Icon>done_outline</Icon>" button to move the resource to its next stage.
+
+<Screenshot image="/screenshot/resource_stages_box_actions.png">
+</Screenshot>
