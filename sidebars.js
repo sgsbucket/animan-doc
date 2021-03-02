@@ -25,6 +25,7 @@ module.exports = {
             'animan/episode',
             'animan/category',
             'animan/resource',
+            'animan/shot',
             'animan/episode_progress',
             'animan/render_progress',
           ],

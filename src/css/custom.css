@@ -74,14 +74,24 @@
   transform: translate(-50%, -10px);
 }
 .screenshot-marktext.bottom-left{
-  top: calc(100%);
+  top: 100%;
   right: 0;
   margin-top: 10px;
 }
 .screenshot-marktext.bottom-right{
-  top: calc(100%);
+  top: 100%;
   left: 0;
   margin-top: 10px;
+}
+.screenshot-marktext.top-left{
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 10px;
+}
+.screenshot-marktext.top-right{
+  bottom: 100%;
+  left: 0;
+  margin-bottom: 10px;
 }
 
 .screenshot-comment {
