@@ -10,6 +10,9 @@ import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 This page shows a view of episode progress that is split to the left section of shots, and right section of stages.
 
+<Screenshot image="/screenshot/episode_progress.png">
+</Screenshot>
+
 ## Shots section
 
 The left section contains many small boxes, each box represents a shot.

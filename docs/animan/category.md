@@ -9,8 +9,8 @@ Resource Category is a set of meta data that defines a resource that belongs to 
 To open a category page, select a show, tab to **Resource Category**, and click one of the categories from the list.
 
 <Screenshot image="/screenshot/resource_category_list.png">
-  <ScreenshotMark x="96.3%" y="44.5%" width={40} height={40} textPosition="left">Create asset-type resource</ScreenshotMark>
-  <ScreenshotMark x="96.3%" y="81%" width={40} height={40} textPosition="left">Create funpack-type resource</ScreenshotMark>
+  <ScreenshotMark x="96.3%" y="45%" width="5%" height="8%" textPosition="left">Create asset-type resource</ScreenshotMark>
+  <ScreenshotMark x="96.3%" y="82.2%" width="5%" height="8%" textPosition="left">Create funpack-type resource</ScreenshotMark>
 </Screenshot>
 
 - File type

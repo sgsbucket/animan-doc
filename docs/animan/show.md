@@ -40,7 +40,7 @@ A shot page has all tools that you can find in a resource page.
 1. Click “Create”
 
 <Screenshot image="/screenshot/create_show.png">
-  <ScreenshotMark x="82%" y="63%" width="28%" height="18%" textPosition="right" borderRadius="10px"></ScreenshotMark>
+  <ScreenshotMark x="84.5%" y="64%" width="30%" height="18%" textPosition="right" borderRadius="10px"></ScreenshotMark>
 </Screenshot>
 
 Once the show is created, it is assigned a short code. The short code is used in various place to represent the show, eg: the url of the pages that is related to the show
@@ -48,8 +48,8 @@ Once the show is created, it is assigned a short code. The short code is used in
 To edit the name or the short code of the show, open the show’s page, (click a show from (page) profile/(tab) shows), click the triangle button beside the title of the show, and click “Edit” button.
 
 <Screenshot image="/screenshot/edit_show_name.png">
-  <ScreenshotMark x="12.1%" y="16%" width="4%" height="12%" textPosition="right" borderRadius="50%"></ScreenshotMark>
-  <ScreenshotMark x="20%" y="32%" width="18%" height="15%" textPosition="right" borderRadius="10px"></ScreenshotMark>
+  <ScreenshotMark x="23%" y="16%" width="8%" height="12%" textPosition="right" borderRadius="50%"></ScreenshotMark>
+  <ScreenshotMark x="33%" y="32%" width="24%" height="15%" textPosition="right" borderRadius="10px"></ScreenshotMark>
 </Screenshot>
 
 ## Rendering
@@ -69,8 +69,8 @@ The preview of shots does not need the trigger to render. Renderman is constantl
 1. Click the checkboxes on the right of the desire episode to turn rendering on/off.
 
 <Screenshot image="/screenshot/create_show.png">
-  <ScreenshotMark x="4.3%" y="73.2%" width="4%" height="10%" textPosition="right" borderRadius="50%"></ScreenshotMark>
-  <ScreenshotMark x="56.5%" y="83%" width="22%" height="12%" textPosition="top" borderRadius="10px">
+  <ScreenshotMark x="4.5%" y="75%" width="4%" height="10%" textPosition="right" borderRadius="50%"></ScreenshotMark>
+  <ScreenshotMark x="58%" y="85%" width="22%" height="12%" textPosition="top" borderRadius="10px">
     Toggle Online/Offline Rendering
   </ScreenshotMark>
 </Screenshot>
@@ -78,7 +78,7 @@ The preview of shots does not need the trigger to render. Renderman is constantl
 
 ### View rendering progress
 :::info
-- Location: (page) Profile / (tab) Shows
+- Location: (page) Profile / (tab) Render Progress
 :::
 The rendering progress can be viewed in this tab.
 
@@ -100,3 +100,24 @@ Use the “Mode” dropdown menu to specify the rendering mode to view (offline 
 All episodes that is turned on are shown on the top of the tab, and each episode has a progress bar to quick view. Click on the episode box to list the shot rendering status of the episode.
 
 Click on SHOT/TIME/SIZE of the list to view the shots in different order.
+
+The progress support 4 modes:
+
+ * **Online mode**: no-compression quality rendering of shots that is used for final product.
+ * **Offline mode**: similar to online rendering, but the quality is 1080p for test purpose.
+ * **Preview mode**: preview mode are the preview movies of shots.
+ * **Thumbnail mode**: thumbnails of the resources of psd and similar image resources.
+
+## Show Stats
+:::info
+- Location: (page) Show / (tab) Stats
+:::
+
+This page shows an overview of the progress of all episode in a show.
+
+<Screenshot image="/screenshot/show_stats.png">
+</Screenshot>
+
+The page shows a list of boxes, each box represents a [Resource Category](category) in the show.
+
+Each Resource Category box shows a grid, each grid shows the number of resources (or shots) in a episode that is currently in a stage.

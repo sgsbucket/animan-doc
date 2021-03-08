@@ -22,7 +22,9 @@ On the Custom Render page
 1. Click “Start Render”
 
 <Screenshot image="/screenshot/renderman_custom_render.png">
-  <ScreenshotMark x="27%" y="73.5%" width="32%" height="9%" borderRadius="10px" textPosition="bottom-right">Here shows how many shots are included in this custom rendering</ScreenshotMark>
+  <ScreenshotMark x="27%" y="75%" width="32%" height="10%" borderRadius="10px" textPosition="bottom-right">
+   Shows how many shots are included in this custom rendering
+  </ScreenshotMark>
 </Screenshot>
 
 ## Render Options

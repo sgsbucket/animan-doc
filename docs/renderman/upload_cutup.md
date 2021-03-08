@@ -27,7 +27,7 @@ In the Cutup page:
   <ScreenshotMark x="8%" y="38%" width="15%" height="12%" textPosition="right" borderRadius="10px">Select a show</ScreenshotMark>
   <ScreenshotMark x="8%" y="51%" width="15%" height="12%" textPosition="right" borderRadius="10px">Choose a cutup xml</ScreenshotMark>
   <ScreenshotMark x="8%" y="64%" width="15%" height="12%" textPosition="right" borderRadius="10px">Choose a cutup mov</ScreenshotMark>
-  <ScreenshotMark x="4.8%" y="90.7%" width="9%" height="10%" textPosition="right" borderRadius="10px">Click upload when finish</ScreenshotMark>
+  <ScreenshotMark x="4.8%" y="92%" width="9%" height="10%" textPosition="right" borderRadius="10px">Click upload when finish</ScreenshotMark>
 </Screenshot>
 
 
