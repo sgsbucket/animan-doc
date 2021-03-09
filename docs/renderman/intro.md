@@ -37,14 +37,17 @@ Renderman will auto-update to the latest version.
 
 If renderman is not running or the render pc restarts, simply double-click renderman.exe to bring it back to running.
 
+<Screenshot image="/screenshot/renderman.png">
+</Screenshot>
+
 :::info
 You should setup the render pc to auto-start renderman when windows starts up.
 :::
 
 Once renderman is up, click the config button to bring up the configuration dialog.
 
-<Screenshot image="/screenshot/renderman.png">
-  <ScreenshotMark x="96.66%" y="18.8%" width="7%" height="9%" textPosition="bottom-left" focusDim="true">Config button</ScreenshotMark>
+<Screenshot image="/screenshot/renderman_config.png">
+  <ScreenshotMark x="97.5%" y="5%" width="5%" height="9%" textPosition="bottom-left">Config button</ScreenshotMark>
 </Screenshot>
 
 In the dialog, fill in the correct path to each software executable.

@@ -9,7 +9,7 @@ A member can change some preferences or account information.
 ## Notification Preferences
 
 :::info
-- Location: Profile page
+- Location: (page) Profile
 :::
 
 <Screenshot image="/screenshot/profile_preferences.png">
@@ -38,6 +38,10 @@ There are two options for each show to toggle:
 
 
 ## Request Account Change
+
+:::info
+- Location: (page) Profile
+:::
 
 A user can change his gmail account that is used on Animan.
 

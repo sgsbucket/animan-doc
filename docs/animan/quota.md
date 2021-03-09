@@ -49,6 +49,9 @@ The work time table lists all checkout checkin activities during the work.
 </Screenshot>
 
 ## Member Quota
+:::info
+- Location: (page) Member
+:::
 
 On the quota page described above, the username of a row in the table links to a member page
 that shows the quota of that specific member.
@@ -62,6 +65,9 @@ There are three main tabs on this page.
 </Screenshot>
 
 ## User Quota
+:::info
+- Location: (page) Member / (tab) User Quota
+:::
 This tab is located on the Member Quota page, and contains two sub tabs in the panel.
 
 ### My Quota
@@ -69,10 +75,20 @@ This tab shows the same table as the detailed table on overview quota page, whic
 all resources that the member worked on within the selected time range.
 Click on each row to view the history of checkout/checkin time when working on a resource.
 
+<Screenshot image="/screenshot/user_quota.png">
+</Screenshot>
+
 ### My Work
 This tab shows the file checkout/checkin history of the member.
 
+
+<Screenshot image="/screenshot/user_quota_mywork.png">
+</Screenshot>
+
 ## Assigned Work
+:::info
+- Location: (page) Member / (tab) Assigned Work
+:::
 
 This tab shows the work that are assigned to this member.
 
@@ -80,6 +96,9 @@ This tab shows the work that are assigned to this member.
 </Screenshot>
 
 ## Submitted Work
+:::info
+- Location: (page) Member / (tab) Submitted Work
+:::
 
 This tab shows the work that this member had worked on and had submitted for review.
 

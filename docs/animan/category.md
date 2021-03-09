@@ -4,6 +4,10 @@ title: Resource Category
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark, ScreenshotComment } from "../../src/components/Screenshot"
 
+:::info
+- Location: (page) Show / (tab) Categories
+:::
+
 Resource Category is a set of meta data that defines a resource that belongs to the category.
 
 To open a category page, select a show, tab to **Resource Category**, and click one of the categories from the list.
@@ -73,7 +77,7 @@ In some overview pages, the stage color can help supervisors quickly understand 
 different sections of the shots.
 
 <Screenshot image="/screenshot/episode_work_progress.png">
-  <ScreenshotComment>Work progress page of an episode</ScreenshotComment>
+  <ScreenshotComment><a href="episode_progress">Work progress page of an episode</a></ScreenshotComment>
 </Screenshot>
 
 #### Reviewer

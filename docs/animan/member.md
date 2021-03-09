@@ -12,8 +12,9 @@ Every member is assigned to a role of either admin, supervisor, or member. Each 
 
 ## Add member
 
-:::info Privilege required
-admin
+:::info
+- Privilege: admin
+- Location: (page) Profile / (tab) Members
 :::
 
 Let you add a member from the existing user who has registered on animan.
@@ -30,8 +31,9 @@ Let you add a member from the existing user who has registered on animan.
 </Screenshot>
 
 ## Invite member
-:::info Privilege required
-admin
+:::info
+- Privilege: admin
+- Location: (page) Profile / (tab) Members
 :::
 
 Let you invite a user to join your studio. The user must have a gmail account.
@@ -48,8 +50,9 @@ Let you invite a user to join your studio. The user must have a gmail account.
 </Screenshot>
 
 ## Member Role and Privileges
-:::info Privilege required
-admin
+:::info
+- Privilege: admin
+- Location: (page) Profile / (tab) Members
 :::
 
 You can change the role of a member to give the member a set of default privileges.
