@@ -5,7 +5,7 @@ menu: show
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-Shots is a special type of resource. The interface and work flow on shot page is almost identical to [resource](/resource) page.
+Shots is a special type of resource. The interface and work flow on shot page is almost identical to [resource](resource) page.
 
 The info section of a shot page contains the animation information and some buttons to edit the shot and config the rendering.
 
