@@ -4,24 +4,24 @@ title: Upload Cutup
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-Cutup is all that begins the flow of an episode on animan.
+Importing a Cutup is the process of bringing an episode into Animan.
 
-Upload a cutup will create an episode, the shots of the episode, animatic and audio files of each shot.
+Upload of a cutup will create an Episode including all Shots, and Animatics and audio files for each Shot.
 
 ## Upload Cutup files
 
-On renderman page, click “Cutup” to open the cutup page.
+On the Renderman Page, click “Cutup” to open the Cutup Page.
 
 <Screenshot image="/screenshot/renderman.png">
   <ScreenshotMark x="82.2%" y="18.8%" width="11%" height="9%" textPosition="bottom-left" focusDim="true"></ScreenshotMark>
 </Screenshot>
 
-In the Cutup page:
+In the Cutup Page:
 
-1. Choose a show that this episode belongs to.
-1. Choose the xml and mp4/mov of the cutup.
+1. Choose the Show that this Episode belongs to.
+1. Choose the xml and mp4/mov of the Cutup.
 1. Click “Upload” to start
-1. Once the process completes, the system will send you an email.
+1. Once the process completes, the system will send Admins an email
 
 <Screenshot image="/screenshot/renderman_upload_cutup.png">
   <ScreenshotMark x="8%" y="38%" width="15%" height="12%" textPosition="right" borderRadius="10px">Select a show</ScreenshotMark>
@@ -32,14 +32,14 @@ In the Cutup page:
 
 
 ## Options
-There are options that you can specify before uploading the cutup
+There are options that Admins can specify before Uploading the Cutup:
 
 - Split Videos Only
 
-  Check this option will make the process only prepare all the resources of the cutup, including thumbnails, animatic.mp4, audio.wav and json files of all the shots, but it will not be uploaded to server.
+  Checking this option will prepare all the Resources of the Cutup, including Thumbnails, animatic.mp4, audio.wav and .json files for all the Shots, but it will not be Uploaded to the Animan server.
 
-  If it useful when diagnosing the cutup and the animatic.
+  If it useful when diagnosing the Cutup and the Animatic.
 
 - Allow Custom FPS
 
-  If unchecked, the cutup process will not proceed if the detected FPS of the animatic is neither 23.97 nor 29.97.
+  If unchecked, the Cutup process will only  proceed if the detected FPS of the animatic is 23.97 or 29.97.

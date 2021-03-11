@@ -4,82 +4,81 @@ title: Quota
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-Quota is a progress monitor that is member oriented.
-Admin users can overview how many seconds of animation worked by each member,
-and can view the detail of how each member works on each file.
+Quota is a progress monitor for Users.
+Admins and Supervisors can view and sort seconds of animation assigned to and completed by each User.
 
 ## Overview
 :::info
 - Location: (page) Profile / (tab) Quota
 :::
 
-This page list members with how many seconds of animation were done within the selected time range.
+This page lists by User, the seconds of animation completed within the selected time range.  Detail of each User's work by assigned shots is available via drop down.
 
 Table columns:
 
-- **User**: the member
-- **Show**: selected show
-- **Animation**: seconds of animation that the member worked on
-- **Tasks**: number of tasks (animation excluded) were done by the member
-- **Time**: a proxy time the member worked on this task
+- **User**: the User
+- **Show**: selected Show
+- **Animation**: seconds of animation that the User worked on
+- **Tasks**: number of tasks (animation excluded) were done by the User
+- **Time**: approximate time the User worked on this task based on the duration of time the resource was checked out
 
 <Screenshot image="/screenshot/profile_quota.png">
 </Screenshot>
 
-Click on a row of this table will expand the detail table of a member.
-The detailed tables lists all resources that the member worked within the selected time range.
+Clicking on a row of this table will expand the detail table of a User.
+The detail table lists all Resources that the User worked within the selected time range.
 
 Detail table columns:
-- **Show**: the show of the resource
-- **Resource**: the resource
-- **Detail**: the stage of the resource that the member worked on
-- **Quota**: either task counts or seconds of animation
-- **Time**: a proxy time the member worked on this task
-- **Date**: the time when the member submitted the work
+- **Show**: the Show of the Resource
+- **Resource**: the Resource
+- **Detail**: the Stage of the Resource that the User worked on
+- **Quota**: either task totals or seconds of animation
+- **Time**: approximate time the User worked on this task
+- **Date**: the time when the User submitted the work 
 
 <Screenshot image="/screenshot/profile_quota_detail.png">
     <ScreenshotMark x="94.1%" y="11.4%" width="6%" height="19%" textPosition="right" borderRadius="20px"></ScreenshotMark>
 </Screenshot>
 
-Each row of the detailed table can be click to expand another table that list the work time.
-The work time table lists all checkout checkin activities during the work.
+Each row of the detailed table can be clicked to expand another table that list the work time and all checkout and checkin activities during the work.
 
 <Screenshot image="/screenshot/profile_quota_subdetail.png">
     <ScreenshotMark x="90%" y="35%" width="6%" height="14%" textPosition="right" borderRadius="20px"></ScreenshotMark>
 </Screenshot>
 
-## Member Quota
+## User Quota
 :::info
-- Location: (page) Member
+- Location: (page) User
 :::
 
-On the quota page described above, the username of a row in the table links to a member page
-that shows the quota of that specific member.
+The User's name on the Quota page above links to the User's Quota page.
 
 There are three main tabs on this page.
 - [User Quota](#user-quota): (see below)
-- [Assigned Work](#assigned-work): show resources that are assigned to the member
-- [Submitted Work](#submitted-work): show resources that contains work of the member
+- [Assigned Work](#assigned-work): show resources that are assigned to the User
+- [Submitted Work](#submitted-work): show resources that contains work of the User
 
 <Screenshot image="/screenshot/user_quota.png">
 </Screenshot>
 
 ## User Quota
 :::info
-- Location: (page) Member / (tab) User Quota
+- Location: (page) User / (tab) User Quota
 :::
-This tab is located on the Member Quota page, and contains two sub tabs in the panel.
+User Quota page contains two sub tabs.
+- My Quota
+- My Work
 
 ### My Quota
-This tab shows the same table as the detailed table on overview quota page, which shows
-all resources that the member worked on within the selected time range.
-Click on each row to view the history of checkout/checkin time when working on a resource.
+This tab shows the same table as the detailed table on the Quota Overview page. It shows
+all Resources that the User worked on within the selected time range.
+Clicking a row to views the history of checkout / checkin history of the resource.
 
 <Screenshot image="/screenshot/user_quota.png">
 </Screenshot>
 
 ### My Work
-This tab shows the file checkout/checkin history of the member.
+This tab shows the file checkout/checkin history of the User.
 
 
 <Screenshot image="/screenshot/user_quota_mywork.png">
@@ -87,20 +86,20 @@ This tab shows the file checkout/checkin history of the member.
 
 ## Assigned Work
 :::info
-- Location: (page) Member / (tab) Assigned Work
+- Location: (page) User / (tab) Assigned Work
 :::
 
-This tab shows the work that are assigned to this member.
+This tab shows the work that are assigned to this User.
 
 <Screenshot image="/screenshot/user_quota_assigned-work.png">
 </Screenshot>
 
 ## Submitted Work
 :::info
-- Location: (page) Member / (tab) Submitted Work
+- Location: (page) User / (tab) Submitted Work
 :::
 
-This tab shows the work that this member had worked on and had submitted for review.
+This tab shows the work that this User had worked on and had submitted for review.
 
 <Screenshot image="/screenshot/user_quota_submitted-work.png">
 </Screenshot>

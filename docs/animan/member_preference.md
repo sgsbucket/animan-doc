@@ -4,7 +4,7 @@ title: Preferences
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-A member can change some preferences or account information.
+Control all User preferences and account information here.
 
 ## Notification Preferences
 
@@ -18,23 +18,23 @@ A member can change some preferences or account information.
     </ScreenshotMark>
 </Screenshot>
 
-There are two options for each show to toggle:
+There are two options for each Show to toggle:
 
 - Renderman Notifications
 
-  The notification from renderman when
+  Notifications are sent when:
 
   1. Cutup upload finishes
 
-     send to admin users
+     sent to Admin users
 
-  2. A preview rendered
+  2. A preview has rendered
 
-     send to the worker / reviewers of the resource/shot
+     sent to the Member / Supervisor of the Resource / Shot
 
 - Stage Notification
 
-  The notification is sent when a resource is moved to a different stage.
+  Notification is sent when a Resource is moved to a different Stage.
 
 
 ## Request Account Change
@@ -43,7 +43,7 @@ There are two options for each show to toggle:
 - Location: (page) Profile
 :::
 
-A user can change his gmail account that is used on Animan.
+A User can change the email address associated with their account.  Can only login with Google, Apple, Facebook, or Twitter accounts so the new email must be associated with one of those accounts.
 
 <Screenshot image="/screenshot/profile_user.png">
     <ScreenshotMark x="78.5%" y="20%" width="22%" height="14%" textPosition="bottom" borderRadius="10px">
@@ -53,11 +53,11 @@ A user can change his gmail account that is used on Animan.
 
 #### Steps:
 
-1. The logged-in user opens profile page, and click "Request Account Change" button
-2. Type in the new gmail account and click "Confirm"
-3. Logout the current account, and login with the new gmail account.
-4. When login with new gmail account on Animan, a confirm dialog popups to help you confirm the change.
-5. After confirmed, the change record will be moved to member list (profile page / members tab).
+1. The logged-in User opens profile page, and click "Request Account Change" button
+2. Type in the new email address and click "Confirm"
+3. Logout the current account, and login with the Google, Apple, Facebook, or Twitter account associated with that email.
+4. When logged into Animan, a confirm dialog pops up to confirm the change.
+5. After confirmed, the change record will be moved to member list (Profile page / User tab).
 6. The change request appears on the bottom of the list.
-7. Ask an admin user to view the members page, and confirm the request.
+7. Ask an admin user to view the Users page, and confirm the request.
 8. Done.
