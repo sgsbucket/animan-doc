@@ -41,5 +41,13 @@ module.exports = {
         'renderman/export_show',
       ]
     },
+    {
+      type: 'category',
+      label: 'FAQ',
+      items: [
+        'faq/why_checkout_is_important',
+        'faq/what_happens_with_revisions',
+      ],
+    },
   ],
 };

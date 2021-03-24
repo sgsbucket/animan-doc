@@ -12,7 +12,7 @@ module.exports = {
     navbar: {
       title: 'Animan Doc',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Animan Document',
         src: 'img/logo.svg',
       },
       items: [
@@ -60,7 +60,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Smiley Guy Studios. Built with Docusaurus.`,
     },
   },
   presets: [
