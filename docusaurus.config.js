@@ -9,6 +9,11 @@ module.exports = {
   organizationName: 'Smiley Guy Studios', // Usually your GitHub org/user name.
   projectName: 'animan-doc', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: '6a8c81d6910f37bf36ba316f18f36477',
+      indexName: 'animan-doc',
+      contextualSearch: true,
+    },
     navbar: {
       title: 'Animan Doc',
       logo: {
