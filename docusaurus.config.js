@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Animan Doc',
   tagline: 'animation studio management',
-  url: 'https://github.com/sgsbucket/',
+  url: 'https://animan-doc.smileyguystudios.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
