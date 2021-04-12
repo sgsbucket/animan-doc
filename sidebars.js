@@ -47,6 +47,10 @@ module.exports = {
       items: [
         'faq/why_checkout_is_important',
         'faq/what_happens_with_revisions',
+        'faq/did_not_get_invitatin_email',
+        'faq/change_resource_thumbnail',
+        'faq/insert_shot_into_a_scene',
+        'faq/what_happens_to_audio_in_a_shot',
       ],
     },
   ],
