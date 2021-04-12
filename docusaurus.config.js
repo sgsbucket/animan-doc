@@ -10,6 +10,7 @@ module.exports = {
   projectName: 'animan-doc', // Usually your repo name.
   themeConfig: {
     algolia: {
+      appId: 'L91C13TWKM',
       apiKey: '6a8c81d6910f37bf36ba316f18f36477',
       indexName: 'animan-doc',
       contextualSearch: true,
