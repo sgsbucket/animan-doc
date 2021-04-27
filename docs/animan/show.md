@@ -31,7 +31,9 @@ A Shot page has all the tools that you can find in a resource page.
 ## Add New Show
 :::info
 Role: Admin
+
 Location: 
+
 - Page: Profile
 - Tab: Shows
 :::
@@ -72,7 +74,9 @@ The preview videos on Shot pages and the thumbnails on Resource pages will alway
 ### Turn Rendering On or Off
 :::info
 Role: Admin
+
 Location: 
+
 - Page: Profile
 - Tab: Shows
 :::

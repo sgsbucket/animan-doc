@@ -9,7 +9,9 @@ An Episode contains a sequence of Shots that produce the final broadcast video.
 ## Add Scene Script
 :::info
 Role: Supervisor
+
 Location: 
+
 - Page: Episode
 - Tab: Shots
 :::
@@ -25,7 +27,9 @@ Click <Icon>menu</Icon> under the desired Scene's label (e.g. Scene 1) and click
 ## Insert shot
 :::info
 Role: Supervisor
+
 Location: 
+
 - Page: Episode
 - Tab: Shots
 :::
@@ -65,7 +69,9 @@ rename the shots of the scene be more easily readable.
 ## Edit shot
 :::info
 Role: Supervisor
+
 Location: 
+
 - Page: Episode
 - Tab: Shots
 :::
@@ -83,7 +89,9 @@ If either the new .wav or .mp4 has a different length from the original shot len
 ## Quick Assign Worker
 :::info
 Role: Supervisor
+
 Location: 
+
 - Page: Episode
 - Tab: Shots
 :::

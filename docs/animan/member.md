@@ -15,6 +15,7 @@ Each user is assigned the role of either Admin, Supervisor, or Member. Each role
 
 :::info
 Role: Admin
+
 Location:
 
 - Page: Profile
@@ -38,6 +39,7 @@ Allows you to assign the role of Member to an existing user registered on Animan
 
 :::info
 Role: Admin
+
 Location:
 
 - Page: Profile
@@ -61,6 +63,7 @@ Allows you to invite a user to join your Studio. For security reasons, the User 
 
 :::info
 Role: Admin
+
 Location:
 
 - Page: Profile
