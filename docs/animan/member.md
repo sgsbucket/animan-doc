@@ -15,7 +15,8 @@ Each user is assigned the role of either Admin, Supervisor, or Member. Each role
 
 :::info
 Role: Admin
-Location: 
+Location:
+
 - Page: Profile
 - Tab: Members
 :::
@@ -34,9 +35,11 @@ Allows you to assign the role of Member to an existing user registered on Animan
 </Screenshot>
 
 ## Invite User
+
 :::info
 Role: Admin
-Location: 
+Location:
+
 - Page: Profile
 - Tab: Users
 :::
@@ -55,23 +58,28 @@ Allows you to invite a user to join your Studio. For security reasons, the User 
 </Screenshot>
 
 ## Member Role and Privileges
+
 :::info
 Role: Admin
-Location: 
+Location:
+
 - Page: Profile
 - Tab: Users
 :::
 
 Once assigned, you can change the role of a user to give that user a different set of default privileges.
-1. On the Profile page, select the Members tab. 
+
+1. On the Profile page, select the Members tab.
 1. Each user has a dropdown that allows you to switch their role"
- 
+
 <Screenshot image="/screenshot/profile_members.png">
   <ScreenshotMark x="83.5%" y="49.2%" width="17%" height="11%" textPosition="right" borderRadius="10px"></ScreenshotMark>
 </Screenshot>
 
 Each set role has different privileges, outlined below
+
 - Member:
+
   1. Check out and work on resources
   1. Check in resources and advance stage for Supervisor review
 - Supervisor:
@@ -85,6 +93,7 @@ Each set role has different privileges, outlined below
   1. Create new Shows
 
 An Admin can also modify privileges for individual users:
+
   1. On the Profile page, select the Members tab
   1. There is a button to edit privileges at the end of each user's row.
   1. Each show has a checkbox for each privilege:
