@@ -1,27 +1,25 @@
 ---
-title: What happens with revisions
+title: How do revisions work?
 ---
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-When a member finishes his work on a resource, and advance to the review stage,
-a reviewer can download the file and check if the work meets requirements.
+When a Member finishes work on a Resource and advances it to the Review stage, a Supervisor can download the file and check if the work meets requirements.
 
-If adjustifications are required, the reviewer can reject the work and push the stage back
-to the previous work stage, so the assigned member can make revisions.
+If further adjustments are required, the Supervisor can decline the advancement of the work and push the stage back to the previous work stage, where the assigned Member can make revisions.
 
 <Screenshot image="/screenshot/resource_stage_approval.png">
   <ScreenshotMark x="18%" y="70%" width="25%" height="12%" textPosition="right" borderRadius="10px">
   </ScreenshotMark>
 </Screenshot>
 
-## Communicate with member
+## Communicating with a Member
 
-There are two ways to communicate with the member:
+There are two ways a Supervisor can communicate with a Member:
 
 ### Write notes
 
-The reviewer can write revision notes.
+he Supervisor can write revision notes and send them to the Member.
 
 <Screenshot image="/screenshot/resource_note_section.png">
   <ScreenshotMark x="22%" y="20%" width="40%" height="15%" textPosition="right" borderRadius="10px">
@@ -35,25 +33,23 @@ The reviewer can write revision notes.
   </ScreenshotMark>
 </Screenshot>
 
-### Check list
+### Checklist
 
-The reviewer can create a check list for revision. Once the check list is built, the member will be forced to
-view the list before uploading (or downloading) the resource file.
+The Supervisor can create a Checklist for revision. Once the checklist is built, the Member will be forced to view the list before uploading (or downloading) the resource file.
 
-To edit the check list, open the resource page and click on the check-list button in the file box.
+To edit the Checklist, open the Resource page and click on the Checklist button in the file box.
 
 <Screenshot image="/screenshot/resource_checklist_menu.png">
   <ScreenshotMark x="76%" y="21%" width="10%" height="22%" textPosition="top" borderRadius="20px">
   </ScreenshotMark>
 </Screenshot>
 
-Click the + button of the desired check-list category.
+Click the + button to the right of the desired Checklist category.
 
 <Screenshot image="/screenshot/resource_edit_checklist.png">
   <ScreenshotMark x="92.1%" y="54%" width="5%" height="11%" textPosition="left" borderRadius="20px">
-    Add item to the list
+    Add item to the Checklist
   </ScreenshotMark>
 </Screenshot>
 
-The first two check-lists are shown for all the resources of the category that is resource belongs to.
-The three check-lists below are shown only for this resource.
+The first two Checklists are shown for all the Resources of the category that includes this Resource. The three Checklists below are shown only for this resource.

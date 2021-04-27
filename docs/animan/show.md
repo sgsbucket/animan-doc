@@ -4,11 +4,11 @@ title: Shows
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-A Show represents a series of Episodes, broken into Seasons, and the many Resources that are used to produce the Episodes.
+A Show represents a series of Episodes, broken into Seasons, and includes the many resources that are used in these Episodes.
 
-Every Resource in Animan belongs to ONE show and may be used for multiple Seasons and Episodes. Resoures reference each other.
+Every resource in Animan belongs to only one show, but may be used for multiple Episodes within that Show. Resources can reference other resources, but again only within a single show.
 
-The hierachy of the Resource structure is described below:
+The hierarchy of the Show/Episode/resource:
 
 ```
 Show
@@ -23,29 +23,31 @@ Show
             └── animatic
 ```
 :::note
-Although a Shot is listed under an Episode in the hierachy above, it is also a Resource, and belongs a special Resource Category, **Shot**.
+Although a Shot is listed under an Episode in the hierarchy above, it is also a resource, and belongs a special Resource Category: **Shot**.
 
-A Shot page has all tools that you can find in a Resource page.
+A Shot page has all the tools that you can find in a resource page.
 :::
 
 ## Add New Show
 :::info
-- Privilege required: admin
-- Location: (page) Profile / (tab) Shows
+Role: Admin
+Location: 
+- Page: Profile
+- Tab: Shows
 :::
 
 #### Steps
-1. Click “Add new Show” on the right of the page.
+1. Click "Add new Show" on the right of the page.
 1. Enter the name of the Show
-1. Click “Create”
+1. Click "Create"
 
 <Screenshot image="/screenshot/create_show.png">
   <ScreenshotMark x="84.5%" y="64%" width="30%" height="18%" textPosition="right" borderRadius="10px"></ScreenshotMark>
 </Screenshot>
 
-Once the Show is created, it is assigned a short code. The short code is used in various places to represent the Show.  It is the url related to the Show.
+Once a Show is created, it is assigned a short code. The short code is used in various places on Animan to represent the Show.
 
-To edit the name or the short code of the Show, open the Show’s page, (click a Show from (page) profile/(tab) Shows), click the triangle button beside the title of the Show, and click “Edit” button.
+To edit the name or the short code of the Show, open the Show's page (for example, from the Profile page's Shows tab), click the triangle button beside the title of the Show, and click the "Edit" button.
 
 <Screenshot image="/screenshot/edit_show_name.png">
   <ScreenshotMark x="23%" y="16%" width="8%" height="12%" textPosition="right" borderRadius="50%"></ScreenshotMark>
@@ -54,19 +56,28 @@ To edit the name or the short code of the Show, open the Show’s page, (click a
 
 ## Rendering
 
-Admins can turn rendering On or Off per Episode. On triggers Renderman to render online or offline Shots for production. The rendering progress can be viewed on Animan.
+There are four modes of rendering:
+
+ * **Online**: There is no compression in this mode of rendering of shots, resulting in final product quality.
+ * **Offline**: Similar to online rendering, but the quality is 1080p and meant for test purposes.
+ * **Preview**: Generates preview videos of shots.
+ * **Thumbnail**: Generates thumbnails of resources from their original image files.
+ 
+Admin users can turn rendering On or Off for each Episode. When set to On, Renderman will render online or offline Shots for production.
 
 :::note
-Preview videos on Shot pages and thumbnails on any Resource page will always render.  Renderman is constantly looking for new revisions of resources to render.
+The preview videos on Shot pages and the thumbnails on Resource pages will always render the latest revision, regardless of rendering being turned On or Off.
 :::
 
 ### Turn Rendering On or Off
 :::info
-- Privilege required: Admin
-- Location: (page) Profile / (tab) Shows
+Role: Admin
+Location: 
+- Page: Profile
+- Tab: Shows
 :::
-1. Click “+” button on the right of the desire Show to list all Episodes of the Show.
-1. Click the checkboxes on the right of the desire Episode to turn rendering On or Off.
+1. Click the + button on the right of the desired Show to list all Episodes of the Show.
+1. Click the checkboxes on the right of the desired Episode to turn rendering On or Off.
 
 <Screenshot image="/screenshot/create_show.png">
   <ScreenshotMark x="4.5%" y="75%" width="4%" height="10%" textPosition="right" borderRadius="50%"></ScreenshotMark>
@@ -78,11 +89,14 @@ Preview videos on Shot pages and thumbnails on any Resource page will always ren
 
 ### View Rendering Progress
 :::info
-- Location: (page) Profile / (tab) Render Progress
+Location: 
+- Page: Profile
+- Tab: Render Progress
 :::
-The rendering progress can be viewed in this tab.
 
-Use the “Mode” dropdown menu to specify the rendering mode to view (Offline or Online).
+The rendering progress can be viewed in this tab. Render progress supports all four render modes: Online, Offline, Preview and Thumbnail.
+
+Use the "Mode" drop-down menu to specify the rendering mode to view: Offline or Online.
 
 <Screenshot image="/screenshot/show_render_progress.png">
   <ScreenshotMark x="11.5%" y="21%" width="22%" height="15%" textPosition="right" borderRadius="10px">
@@ -97,27 +111,20 @@ Use the “Mode” dropdown menu to specify the rendering mode to view (Offline 
   </ScreenshotMark>
 </Screenshot>
 
-All Episodes that are turned on are shown on the top of the tab, and each Episode has a progress bar for a quick status view. Click on the Episode box to list the Shot rendering status of the Episode.
+All Episodes that have rendering turned on are shown on the top of the tab. Each Episode has a progress bar for a quick view at its status. Click on the Episode box to list the Shot rendering status for that Episode.
 
-Click on the titles SHOT/TIME/SIZE to sort the view.
+Clicking on the column headings SHOT, TIME, or SIZE will sort the render table by that column's values.
 
-Render progress supports 4 render modes:
-
- * **Online mode**: no-compression quality rendering of shots that is used for final product.
- * **Offline mode**: similar to online rendering, but the quality is 1080p for test purpose.
- * **Preview mode**: preview mode are the preview movies of shots.
- * **Thumbnail mode**: thumbnails of the resources from psd and similar image files.
 
 ## Show Stats
 :::info
-- Location: (page) Show / (tab) Stats
+Location: 
+- Page: Show
+- Tab: Stats
 :::
-
 This page shows an overview of the progress of all Episode of a Show.
 
 <Screenshot image="/screenshot/show_stats.png">
 </Screenshot>
 
-The page shows a list of boxes, each box represents a [Resource Category](category) in the show.
-
-Each Resource Category box shows a grid, each grid shows the number of resources (or shots) in a episode that is currently in a stage.
+This page has expandable boxes for each [Resource Category](category). When expanded, these boxes show a table where that resource category is divided by episode and resource stage. From this table, you can quickly see how many resources for this category are in each stage for each episode.

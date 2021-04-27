@@ -1,8 +1,8 @@
 ---
-title: I have a shot I need to insert into a scene.  How do I do it?
+title: I have a Shot that I need to insert into a Scene. How do I do that?
 ---
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 
-Please refer to [How to insert a shot](../animan/episode#insert-shot).
+Please refer to [How to insert a Shot](../animan/episode#insert-shot).

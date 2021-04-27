@@ -4,28 +4,30 @@ title: Members
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-Every User is assigned to a role of either Admin, Supervisor, or Member. Each role has a preset of privileges to access the content of Animan.
+Each user is assigned the role of either Admin, Supervisor, or Member. Each role has set privileges for access to the content of Animan.
 
-- Member : artists and animators creating resources and animating shots 
-- Supervisor : assigning and reviewing the work of Members 
-- Admin : controls the Animan backend and the privilidges of Members, Supervisors, and Clients
-- Client : 
+- Member: Artists and animators creating resources and animating shots
+- Supervisor: Assigning and reviewing the work of Members
+- Admin: Controls the Animan backend and the privilidges of Members, Supervisors, and Clients
+- Client: View shots and resources for applicable Shows
 
 ## Add Member
 
 :::info
-- Privilege: Admin
-- Location: (page) Profile / (tab) Members
+Role: Admin
+Location: 
+- Page: Profile
+- Tab: Members
 :::
 
-Let you add a Member from the existing User who has registered on Animan.
+Allows you to assign the role of Member to an existing user registered on Animan.
 
 #### Steps
 
-1. On the profile page and go to “Users” tab panel.
-1. Click on “+ User” button to bring up a search User dialog.
-1. Enter the email or name of the user and click “Search”
-1. Mouse over the desired user and click “Select >” button
+1. On the "Profile" page, select the "Members" tab.
+1. Click on the "+ User" button to search for a User.
+1. Enter the email or name of the user and click the "Search" button.
+1. Place your mouse cursor over the desired user and click the "Select >" button.
 
 <Screenshot image="/screenshot/profile_members.png">
   <ScreenshotMark x="10%" y="34%" width="14%" height="12%" textPosition="right" borderRadius="10px"></ScreenshotMark>
@@ -33,18 +35,20 @@ Let you add a Member from the existing User who has registered on Animan.
 
 ## Invite User
 :::info
-- Privilege: Admin
-- Location: (page) Profile / (tab) Users
+Role: Admin
+Location: 
+- Page: Profile
+- Tab: Users
 :::
 
-Lets you invite a User to join your studio. For security reasons, the User must have a Google, Apple, Facebook, or Twitter account to register with.
+Allows you to invite a user to join your Studio. For security reasons, the User must have a Google, Apple, Facebook, or Twitter account to register.
 
 #### Steps
 
-1. On the profile page and go to “Users” tab panel.
-1. Click on “+ Invite User” button to bring up a inviting dialog.
-1. Enter the Email address associated with the user's Google, Apple, Facebook, or Twitter account then click the “Send Invitation” button.
-1. The invitation email is sent and contains a link for the User to accept the invitation.  The User may have to check their spam folder.
+1. On the "Profile" page, select the "Members" tab.
+1. Click on the "+ Invite User" button.
+1. Enter the email address associated with the user's Google, Apple, Facebook, or Twitter account then click the "Send Invitation" button.
+1. The invitation email is then sent to the user containing a link to accept the invitation. The user may have to check their Spam folder.
 
 <Screenshot image="/screenshot/profile_members.png">
   <ScreenshotMark x="13.5%" y="85%" width="21%" height="13%" textPosition="right" borderRadius="10px"></ScreenshotMark>
@@ -52,41 +56,49 @@ Lets you invite a User to join your studio. For security reasons, the User must 
 
 ## Member Role and Privileges
 :::info
-- Privilege: Admin
-- Location: (page) Profile / (tab) Members
+Role: Admin
+Location: 
+- Page: Profile
+- Tab: Users
 :::
 
-You can change the role of a User to give the User a set of default privileges.
-Under Users tab in Profile page, each User has a dropbox to assign roles.
-
+Once assigned, you can change the role of a user to give that user a different set of default privileges.
+1. On the Profile page, select the Members tab. 
+1. Each user has a dropdown that allows you to switch their role"
+ 
 <Screenshot image="/screenshot/profile_members.png">
   <ScreenshotMark x="83.5%" y="49.2%" width="17%" height="11%" textPosition="right" borderRadius="10px"></ScreenshotMark>
 </Screenshot>
 
+Each set role has different privileges, outlined below
 - Member:
-  1. check out/check in files to edit
-  1. promote completed work to the next stage for review
+  1. Check out and work on resources
+  1. Check in resources and advance stage for Supervisor review
 - Supervisor:
-  1. all member privileges
-  1. add/edit/remove resurce categories
-  1. add/edit/remove resurces
-  1. add/edit/remove notes
+  1. All of the privileges of a Member, plus
+  1. Add/edit/remove resource categories
+  1. Add/edit/remove resources
+  1. Add/edit/remove notes
 - Admin:
-  1. all supervisor privileges
-  1. member management
-  1. create new shows
+  1. All of the privileges of a Supervisor, plus
+  1. Manage Members
+  1. Create new Shows
 
-Admin can also modify privileges for individual Users.
-Under users tab in profile page, there is a privileges edit button at the end of each User’s row.
+An Admin can also modify privileges for individual users:
+  1. On the Profile page, select the Members tab
+  1. There is a button to edit privileges at the end of each user's row.
+  1. Each show has a checkbox for each privilege:
 
 <Screenshot image="/screenshot/profile_members.png">
   <ScreenshotMark x="93.6%" y="49.5%" width="5%" height="10%" textPosition="right" borderRadius="20px"></ScreenshotMark>
 </Screenshot>
 
-- Read: whether the show appears in the User's page.
-- Edit Category: whether the User is able to edit categories of the show
-- Edit Resource: whether the User is able to edit resources of the show
-- Edit Episode: whether the User is able to edit episodes of the show
+- Read: Toggles whether the Show appears to a user.
+- Edit Category: Toggles whether the user is able to edit the Categories of the Show (its stages, the users assigned to it, references, special notes, file types, boilerplate template files, etc.).
+- Edit Resource: Toggles whether the user is able to edit resources of the show (its title, tags, and the ability to delete the resource).
+- Edit Episode: Toggles whether the user is able to edit episodes of the show (their titles and code labels).
+
+Click the floppy disk icon to save any changes or click outside the dialog box to exit without saving.
 
 <Screenshot image="/screenshot/profile_members_privilege.png">
 </Screenshot>

@@ -5,23 +5,23 @@ import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 :::info
-- Location: (page) episode / (tab) progress
+Location: 
+- Page: Episode
+- Tab: Progress
 :::
 
-This page shows a view of Episode progress that is split to a left section for shots, and right section for Stages.
+This page shows an Episode's progress. It is split into a left section for Shots and right section for Stages.
 
 <Screenshot image="/screenshot/episode_progress.png">
 </Screenshot>
 
 ## Shots Section
 
-The left section contains small boxes, each box representing a Shot.
-The Shots are organized by Act and Scene in the Episode.
+The left section contains small boxes that represent Shots. The Shots are organized by Act and Scene in the Episode.
 
-The color of the box represents the current Stage of the Shot.
-Supervisors can change the Stage color in the Stages sections on the right.
+The colour of the box represents the current Stage of the Shot. Supervisors can change the Stage colour in the Stages sections on the right.
 
-The number on each box shows additional info from the Shot. Users choose which info to show from the tabs above:
+The number on each box shows there is additional information for the Shot. Users choose what information is shown from the tabs above:
 
 - Shot#
 
@@ -37,19 +37,15 @@ The number on each box shows additional info from the Shot. Users choose which i
 
 ## Stage Section
 
-The right section list the stages of the Shot Category. Each row represents a Stage.
+The right section lists the stages of the Shot Category. Each row represents a Stage.
 
 A stage row is composed of 3 parts:
 
-- Left side: progress info
-
-  This part can be toggled between two displays:
+- Left side: Progress information, which can be displayed in two different ways:
 
   1. Animation
 
-    Shows how many seconds of animation are currently at this Stage.
-    For work Stages, the data is split into **NEW** (first time at this Atage),
-    and **REV** (the work was rejected and back for Revision)
+    Shows how many seconds of animation are currently at this Stage. If it's a Work stage, the data is split into ***NEW*** (first time at this Stage) and ***REV*** (the work was not approved and is back for Revision).
 
   2. Unassigned
 

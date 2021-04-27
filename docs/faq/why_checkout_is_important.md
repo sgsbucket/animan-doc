@@ -1,14 +1,9 @@
 ---
-title: Why checkout is important
+title: Why is checking out important?
 ---
 
-When a member is assigned to work on a shot or a resource,
-it is important to check out the file before downloading the file to work on it.
+When a Member is assigned work on a Shot or a Resource, it is important to check out the file before downloading the file to work on it.
 
-When a shot (or a resource) is checked out, no other member can upload
-new versions to the shot (or the resource). This insures that the member
-work only on the latest version.
+When a Shot (or a Resource) is checked out, no other Member can upload new versions to the Shot (or the Resource). This ensures that the Member is working on the latest version.
 
-Once the work is done, upload the new version to the shot (or the resource),
-the system will check in the shot (or the resource) automatically, so other
-member can take over to work on the next stage.
+Once the work is done, upload the new version to the Shot (or the Resource), the system will check-in the shot (or the resource) automatically, so other Members can work on the next stage.
