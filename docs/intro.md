@@ -53,7 +53,7 @@ Animan works with its companion software [Renderman](/renderman/intro) to help f
 
 1. Admin creates a Show, uploads an animatic, and assigns roles to users and users to shows.
 1. Supervisors create and assign resources to Members.
-1. Each resource has a series of stages of approval in order to reach completion.
+1. Each resource has a series of stages of work and approval in order to reach completion.
 1. Members advance a resource to the revision stage by assigning the resource back to the Supervisor for review.
 1. In the review stage, Supervisors approve the work done on a resource and advance it to the next work stage if applicable or instead make notes and assign the resource back to the Member for revision.
 1. Resources are finished when they reach their final stage.

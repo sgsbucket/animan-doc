@@ -93,6 +93,8 @@ Location:
 
 ### View Rendering Progress
 :::info
+Role: Member, Supervisor, Admin
+
 Location: 
 - Page: Profile
 - Tab: Render Progress
@@ -122,6 +124,8 @@ Clicking on the column headings SHOT, TIME, or SIZE will sort the render table b
 
 ## Show Stats
 :::info
+Role: Member, Supervisor, Admin
+
 Location: 
 - Page: Show
 - Tab: Stats

@@ -5,6 +5,8 @@ import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 :::info
+Role: Member, Supervisor, Admin
+
 Location: 
 - Page: Episode
 - Tab: Progress

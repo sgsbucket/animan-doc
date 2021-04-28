@@ -8,6 +8,8 @@ Quota is a progress monitor that shows the tasks and/or seconds of animation com
 
 ## Quota Overview for Supervisors/Admins
 :::info
+Role: Supervisor, Admin
+
 Location: 
 - Page: Profile
 - Tab: Quota
@@ -48,6 +50,8 @@ Each row of the detailed table can be clicked on to show another table that list
 
 ## User Quota
 :::info
+Role: Member, Supervisor, Admin
+
 Location: 
 - Page: User
 :::
@@ -64,6 +68,8 @@ There are three main tabs on this page:
 
 ## User Quota
 :::info
+Role: Member, Supervisor, Admin
+
 Location: 
 - Page: User
 - Tab: User Quota
@@ -87,6 +93,8 @@ This tab shows the checkout/check-in history of the user.
 
 ## Assigned Work
 :::info
+Role: Member, Supervisor, Admin
+
 Location: 
 - Page: User
 - Tab: Assigned Work
@@ -99,6 +107,8 @@ This tab shows the work that is assigned to this user.
 
 ## Submitted Work
 :::info
+Role: Member, Supervisor, Admin
+
 Location: 
 - Page: User
 - Tab: Submitted Work

@@ -35,7 +35,7 @@ Location:
 :::
 
 After Renderman builds an Episode, you can still insert/remove/edit shots in Animan.
-On the Episode page, click the <Icon>more_vert</Icon> button, and select "Insert After <Icon>vertical_align_bottom</Icon>" to open up a dialog box where you can insert a new Shot after the selected Shot.
+On the Episode page, click the <Icon>more_vert</Icon> button, and select "Insert After" <Icon>vertical_align_bottom</Icon> to open up a dialog box where you can insert a new Shot after the selected Shot.
 
 <Screenshot image="/screenshot/episode_shows_options.png">
   <ScreenshotMark x="45.3%" y="42%" width="6%" height="8.5%" textPosition="right" borderRadius="50%"></ScreenshotMark>

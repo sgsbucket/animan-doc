@@ -9,6 +9,8 @@ Users control all of their account information and preferences on this page.
 ## Notification Preferences
 
 :::info
+Role: Member, Supervisor, Admin
+
 Location: Profile
 :::
 
@@ -35,6 +37,8 @@ There are two notifications options for each Show that can be enabled/disabled:
 ## Request Account Change
 
 :::info
+Role: All
+
 Location: Profile
 :::
 

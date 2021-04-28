@@ -46,7 +46,7 @@ Location:
 - Tab: Users
 :::
 
-Allows you to invite a user to join your Studio. For security reasons, the User must have a Google, Apple, Facebook, or Twitter account to register.
+Allows you to invite a user to join your Studio. For security reasons, the User must have a Google, Apple, Facebook, Slack, or Twitter account to register.
 
 #### Steps
 
