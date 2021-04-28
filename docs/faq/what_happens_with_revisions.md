@@ -28,7 +28,7 @@ he Supervisor can write revision notes and send them to the Member.
   <ScreenshotMark x="93.3%" y="25.3%" width="5%" height="9%" textPosition="bottom-left" borderRadius="20px">
     2. Change to R (Revision)
   </ScreenshotMark>
-  <ScreenshotMark x="93.3%" y="17%" width="5%" height="9%" textPosition="top-left" borderRadius="20px">
+  <ScreenshotMark x="90.0%" y="27%" width="5%" height="9%" textPosition="top-left" borderRadius="20px">
     3. Send
   </ScreenshotMark>
 </Screenshot>
