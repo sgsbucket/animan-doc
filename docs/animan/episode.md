@@ -34,14 +34,14 @@ Location:
 - Tab: Shots
 :::
 
-After Renderman builds an Episode, you can still insert/remove/edit shots in Animan.
+After Renderman builds an Episode, you can still insert/remove/edit Shots in Animan.
 On the Episode page, click the <Icon>more_vert</Icon> button, and select "Insert After" <Icon>vertical_align_bottom</Icon> to open up a dialog box where you can insert a new Shot after the selected Shot.
 
 <Screenshot image="/screenshot/episode_shows_options.png">
   <ScreenshotMark x="45.3%" y="42%" width="6%" height="8.5%" textPosition="right" borderRadius="50%"></ScreenshotMark>
 </Screenshot>
 
-To successfully insert a shot, the dialog box requires three assets:
+To successfully insert a Shot, the dialog box requires three assets:
 
 - The number of total Frames
 - An animatic file (.mp4)
@@ -54,11 +54,11 @@ Optional: Specify a frame from the video to be the Thumbnail of the Shot.
 
 :::tip The name of the Shot
 The default name of the new Shot is chosen by the system.
-The Shot number in the new Shot's name is the middle number between the previous and the next shot.
+The Shot number in the new Shot's name is the middle number between the previous and the next Shot.
 - Ex. If you insert a Shot after E101-1-2-3, the name of the new Shot will likely be E101-1-2-3.5
 
 You can click <Icon>menu</Icon> under the Scene label and click "Normalize Shot Numbers" to
-rename the shots of the scene be more easily readable.
+rename the Shots of the scene be more easily readable.
 
 <Screenshot image="/screenshot/episode_shows_normalize_shotnames.png">
     <ScreenshotMark x="12%" y="37.5%" width="9%" height="15%" textPosition="right" borderRadius="50%"></ScreenshotMark>
@@ -66,7 +66,7 @@ rename the shots of the scene be more easily readable.
 </Screenshot>
 :::
 
-## Edit shot
+## Edit Shot
 :::info
 Role: Supervisor
 
@@ -84,7 +84,7 @@ Editing a Shot is very similar to inserting a Shot. Click "Edit" from the same [
 
 Here you can change either the animatic (.mp4), audio (.wav) or both.
 
-If either the new .wav or .mp4 has a different length from the original shot length, you must provide both the animatic (.mp4) and audio (.wav) and provide the correct frames number in the **Frames** field.
+If either the new .wav or .mp4 has a different length from the original Shot length, you must provide both the animatic (.mp4) and audio (.wav) and provide the correct frames number in the **Frames** field.
 
 ## Quick Assign Worker
 :::info
@@ -104,4 +104,4 @@ On the Shots page, check the **Detail** checkbox at the top right of the screen 
   </ScreenshotMark>
 </Screenshot>
 
-The Shot's detail box shows all the Stages that need a Member to work on it. If a Stage does not have a Member assigned, the Supervisor can click the (?) button to quickly assign a Member to that Stage.
+The Shot's detail box displays all the Stages that need a Member to work on it. If a Stage does not have a Member assigned, the Supervisor can click the (?) button to quickly assign a Member to that Stage.

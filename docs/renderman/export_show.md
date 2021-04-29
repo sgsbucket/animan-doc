@@ -30,7 +30,7 @@ By default, the export function only includes the latest file of each Resource. 
 
 ## Export Result
 
-The Export progress is shown on the Renderman panel.
+The Export progress is displayed on the Renderman panel.
 
 <Screenshot image="/screenshot/renderman_export_show_result.png">
 </Screenshot>

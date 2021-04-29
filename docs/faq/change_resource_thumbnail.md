@@ -1,5 +1,5 @@
 ---
-title: I don't like the auto generated thumbnail that shows up for an asset.  Can I change it?
+title: I don't like the auto generated thumbnail for an asset.  Can I change it?
 ---
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
@@ -40,7 +40,7 @@ Open the Resource Page, then:
 
 1. Check out the Resource.
 2. Upload an image to "animatic.gif".
-3. Check-in the resource.
+3. Check-in the Resource.
 
 You can upload any web image format, like png, jpg, gif, etc. The Resource will then take the image uploaded to the "animatic.gif" as its thumbnail.
 

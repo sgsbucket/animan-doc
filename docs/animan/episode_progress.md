@@ -12,7 +12,7 @@ Location:
 - Tab: Progress
 :::
 
-This page shows an Episode's progress. It is split into a left section for Shots and right section for Stages.
+This page displays an Episode's progress. It is split into a left section for Shots and right section for Stages.
 
 <Screenshot image="/screenshot/episode_progress.png">
 </Screenshot>
@@ -23,7 +23,7 @@ The left section contains small boxes that represent Shots. The Shots are organi
 
 The colour of the box represents the current Stage of the Shot. Supervisors can change the Stage colour in the Stages sections on the right.
 
-The number on each box shows there is additional information for the Shot. Users choose what information is shown from the tabs above:
+The number on each box indicates there is additional information for the Shot. Users choose what information is shown from the tabs above:
 
 - Shot#
 
@@ -31,11 +31,11 @@ The number on each box shows there is additional information for the Shot. Users
 
 - In Progress Refs
 
-  Shows the number of in-progress Resources that a shot References.
+  Shows the number of in-progress Resources that a Shot References.
 
 - Finished Refs
 
-  Shows the number of finished Resources that a shot References.
+  Shows the number of finished Resources that a Shot References.
 
 ## Stage Section
 

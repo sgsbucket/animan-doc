@@ -4,11 +4,11 @@ title: Shows
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-A Show represents a series of Episodes, broken into Seasons, and includes the many resources that are used in these Episodes.
+A Show represents a series of Episodes, broken into Seasons, and includes the many Resources that are used in these Episodes.
 
-Every resource in Animan belongs to only one show, but may be used for multiple Episodes within that Show. Resources can reference other resources, but again only within a single show.
+Every Resource in Animan belongs to only one Show, but may be used for multiple Episodes within that Show. Resources can reference other Resources, but again only within a single Show.
 
-The hierarchy of the Show/Episode/resource:
+The hierarchy of the Show/Episode/Resource:
 
 ```
 Show
@@ -23,9 +23,9 @@ Show
             └── animatic
 ```
 :::note
-Although a Shot is listed under an Episode in the hierarchy above, it is also a resource, and belongs a special Resource Category: **Shot**.
+Although a Shot is listed under an Episode in the hierarchy above, it is also a Resource, and belongs a special Resource Category: **Shot**.
 
-A Shot page has all the tools that you can find in a resource page.
+A Shot page has all the tools that you can find in a Resource page.
 :::
 
 ## Add New Show
@@ -60,10 +60,10 @@ To edit the name or the short code of the Show, open the Show's page (for exampl
 
 There are four modes of rendering:
 
- * **Online**: There is no compression in this mode of rendering of shots, resulting in final product quality.
+ * **Online**: There is no compression in this mode of rendering of Shots, resulting in final product quality.
  * **Offline**: Similar to online rendering, but the quality is 1080p and meant for test purposes.
  * **Preview**: Generates preview videos of shots.
- * **Thumbnail**: Generates thumbnails of resources from their original image files.
+ * **Thumbnail**: Generates thumbnails of Resources from their original image files.
  
 Admin users can turn rendering On or Off for each Episode. When set to On, Renderman will render online or offline Shots for production.
 
@@ -110,14 +110,14 @@ Use the "Mode" drop-down menu to specify the rendering mode to view: Offline or 
   </ScreenshotMark>
   <ScreenshotMark x="33.1%" y="32.3%" width="10%" height="9.5%" textPosition="right" borderRadius="8px">
     <div>Shows the progress of an Episode.</div>
-    <div>Click to show the progress detail.</div>
+    <div>Click to display the progress detail.</div>
   </ScreenshotMark>
   <ScreenshotMark x="50%" y="80%" width="99%" height="36%" textPosition="top" borderRadius="8px">
     List render status of each Shot of the selected Episode.
   </ScreenshotMark>
 </Screenshot>
 
-All Episodes that have rendering turned on are shown on the top of the tab. Each Episode has a progress bar for a quick view at its status. Click on the Episode box to list the Shot rendering status for that Episode.
+All Episodes that have rendering turned on are listed on the top of the tab. Each Episode has a progress bar for a quick view at its status. Click on the Episode box to list the Shot rendering status for that Episode.
 
 Clicking on the column headings SHOT, TIME, or SIZE will sort the render table by that column's values.
 
@@ -130,9 +130,9 @@ Location:
 - Page: Show
 - Tab: Stats
 :::
-This page shows an overview of the progress of all Episode of a Show.
+This page displays an overview of the progress of all Episode of a Show.
 
 <Screenshot image="/screenshot/show_stats.png">
 </Screenshot>
 
-This page has expandable boxes for each [Resource Category](category). When expanded, these boxes show a table where that resource category is divided by episode and resource stage. From this table, you can quickly see how many resources for this category are in each stage for each episode.
+This page has expandable boxes for each [Resource Category](category). When expanded, these boxes reveal a table where that Resource category is divided by Episode and Resource stage. From this table, you can quickly see how many Resources for this category are in each stage for each Episode.
