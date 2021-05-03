@@ -5,7 +5,7 @@ import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 ## What is Renderman
-Renderman is a companion app to Animan. It runs on one or several local "Render PC(s)" controlled by your Studio to export production video, preview images, and thumbnails of resources and shots as instructed by Animan.
+Renderman is a companion app to Animan. It runs on one or several local "Render PC(s)" controlled by your Studio to export production video, preview images, and thumbnails of Resources and Shots as instructed by Animan.
 
 ## Installation
 
@@ -65,7 +65,7 @@ C:/Program Files (x86)/Toon Boom Animation/Toon Boom Harmony 17 Premium/win64/bi
 #### Output Mov Format
 This format determines the name of the output .mov files. You can use alphabet characters, underline, {id}, {act}, {scene}, {shot} in the format.
 
-Examples for the shot ID=1502, in Act:1, Scene:3, Shot:12
+Examples for the Shot ID=1502, in Act:1, Scene:3, Shot:12
 ```sh
 // produce s_1502.mov
 s_{id}
@@ -79,9 +79,9 @@ s_{id}
 There are four input boxes in the Render section. Renderman will render these four formats in the following order:
 
 Renderman wants to Render 4 types on things in order:
-1. Thumb: Rendering .PSD thumbnails
+1. Thumb: Rendering .PSD thumbnails.
 1. Preview: Rendering preview video of Shots, which are shown in Animan.
 1. Offline: Rendering Offline video clips that are stored on the Renderman PC(s).
 1. Rendering Online video clips that are stored on the Renderman PC(s).
 
-The input box for these types refers to the number of Resources for each format and can allow Admin users to spread the workload (the default is 10). For example, an Admin user can set each of Thumb/Preview/Online to 1 and keep 10 on Offline to speed up Offline renders.
+The input box for these types refers to the number of resources for each format and can allow Admin users to spread the workload (the default is 10). For example, an Admin user can set each of Thumb/Preview/Online to 1 and keep 10 on Offline to speed up Offline renders.

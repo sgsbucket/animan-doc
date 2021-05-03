@@ -9,7 +9,7 @@ There are two ways to change the thumbnail of a Resource:
  1. [Assign a frame of an animation Shot](#assign-a-frame-of-a-animation-shot)
  1. [Upload an image as the thumbnail](#upload-an-image-as-the-thumbnail)
 
-## Assign a frame of an animation Shot"
+## Assign a frame of an animation Shot.
 
 * Note: This option will only work for an animation Shot.
 
@@ -34,7 +34,7 @@ You can preview the thumbnail before saving.
 </Screenshot>
 
 
-## Upload an image as the thumbnail
+## Upload an image as the thumbnail.
 
 Open the Resource Page, then:
 

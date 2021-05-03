@@ -4,7 +4,7 @@ title: Preferences
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-Users control all of their account information and preferences on this page.
+The Preferences page is where users control all of their account information and preferences. It is accessible as soon as the user logs in or else by clicking the user ID menu in the top right and selecting "Profile".
 
 ## Notification Preferences
 
@@ -13,6 +13,8 @@ Role: Member, Supervisor, Admin
 
 Location: Profile
 :::
+
+Notification preferences can be set by clicking the "Notification Preferences" button in the "Account Info" box.
 
 <Screenshot image="/screenshot/profile_preferences.png">
     <ScreenshotMark x="14.5%" y="9.8%" width="26%" height="7%" textPosition="right" borderRadius="10px">
@@ -26,12 +28,12 @@ There are two notifications options for each Show that can be enabled/disabled:
 
   Notifications are sent when:
 
-  1. A cut-up upload is complete (sent to Admin users)
-  1. A preview has rendered (sent to the Member/Supervisor of that resource/shot)
+  1. A Cut-up's upload is complete (sent to Admin users).
+  1. A preview has been rendered (sent to the Member/Supervisor of that resource/shot).
 
 - Stage Notification
 
-  Notification is sent when a Resource is moved to a different Stage.
+A notification is sent when a Resource is moved to a different Stage.
 
 
 ## Request Account Change
@@ -52,7 +54,7 @@ A user can change the email address associated with their account. However, user
 
 #### Steps:
 
-1. Once logged in, navigate to the Profile page and click the "Request Account Change" button.
+1. Once logged in and on the Profile page, click the "Request Account Change" button.
 1. Type in the new email address and click the "Confirm" button.
 1. Log out of the current account, and log in with the Google, Apple, Facebook, or Twitter account associated with the new email.
 1. When logged in to Animan, a dialog pops up to confirm the email change.

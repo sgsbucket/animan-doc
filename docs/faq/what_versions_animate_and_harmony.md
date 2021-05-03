@@ -3,7 +3,7 @@ title: What versions of Adobe Animate and ToonBoom Harmony does Animan support?
 ---
 
 Renderman is a companion app to Animan that runs on a PC of your studio.
-It helps render the thumbnails, animations of the resources that you upload to Animan.
+It helps render the thumbnails, animations of the Resources that you upload to Animan.
 
 Renderman currently support rendering animations of ToonBoom Harmony as the .xstage file,
 and Animate as the .fla file.

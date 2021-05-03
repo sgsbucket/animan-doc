@@ -1,13 +1,13 @@
 ---
 title: Resources
-menu: show
+menu: Show
 ---
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 A Resource is an asset definition that helps Animan manage images, sounds, and animation.
 
-Every Resource belongs to ONE "[Resource Category](category.md)". A Resource Category tells what file formats are used and what Work Stages the Resource must go through.
+Every Resource belongs to ONE "[Resource Category](category.md)". A Resource Category sets the default file format(s) for that Resource and what Work Stages the Resource must go through.
 
 ## Page Content
 
@@ -35,7 +35,7 @@ Place your mouse cursor over the thumbnail to bring up Render-related tools.
 
 <Screenshot image="/screenshot/resource_thumb_mouseover.png">
     <ScreenshotMark x="61%" y="29%" width="8%" height="16%" textPosition="left" borderRadius="50%">
-        Open the full-sized thumbnail<br/> on a new window
+        Open the full-sized thumbnail in a new window.
     </ScreenshotMark>
 </Screenshot>
 
@@ -47,9 +47,9 @@ Place your mouse cursor over the thumbnail to bring up Render-related tools.
 
 ### Change Priority
 
-Priority is used in listing assigned work and searching for no-tagged resources. Higher Priority items will be listed at the beginning of the results.
+Priority is used in listing assigned work and searching for no-tagged Resources. Higher Priority items will be listed at the beginning of the results.
 
-The Priority of a resource is determined by an auto-calculation of how many Resources are Referencing it, as well as by a customized Priority value. To change the Customized Priority, click on the Priority Number.
+The Priority of a Resource is determined by an auto-calculation of how many Resources are Referencing it, as well as by a customized Priority value. To change the Customized Priority, click on the Priority Number.
 
 <Screenshot image="/screenshot/resource_set_priority.png">
     <ScreenshotMark x="68.7%" y="15%" width="5.5%" height="11%" textPosition="left" borderRadius="50%"></ScreenshotMark>
@@ -57,7 +57,7 @@ The Priority of a resource is determined by an auto-calculation of how many Reso
 
 ### Add Instructions
 
-A Supervisor can add instructions and Notes for a Resource here.
+A Supervisor can add instructions and Notes for a Resource by clicking the "Notes / Instructions" button.
 
 <Screenshot image="/screenshot/resource_add_instruction.png">
     <ScreenshotMark x="65.5%" y="13%" width="24%" height="7%" textPosition="bottom" borderRadius="10px">
@@ -101,7 +101,7 @@ You can set up to 5 marks in a Resource Category. Marks can be toggled on and of
     </ScreenshotMark>
 </Screenshot>
 
-Here is an example of how a Category Mark looks when browsing a resource list:
+Here is an example of how a Category Mark looks when browsing a Resource list:
 
 <Screenshot image="/screenshot/resource_marks_in_list.png">
   <ScreenshotMark x="41%" y="62.1%" width="5%" height="8%" textPosition="top" borderRadius="20px">
@@ -115,12 +115,12 @@ All files related to this Resource are listed in this section. Users can click t
 <Screenshot image="/screenshot/resource_file_section.png">
 </Screenshot>
 
-Click the little triangle beside the filename to list older versions of the file.
+Click the little triangle beside the filename to list the older versions of the file and on their filename to download these files.
 <Screenshot image="/screenshot/resource_file_versions.png">
   <ScreenshotMark x="79.6%" y="9.6%" width="10%" height="10%" textPosition="top" borderRadius="20px"></ScreenshotMark>
 </Screenshot>
 
-### Checkout / Check-in, aka Locked / Unlocked
+### Check Out / Check In, aka Locked / Unlocked
 
 When a user checks out a Resource, it means that the user has the working copy of the Resource file. No other user may upload a file to that Resource while it is checked out. The checked out state is also called Locked.
 
@@ -197,13 +197,13 @@ It also logs system events and messages.
 
 ## Stages
 
-[The stages are the workflow of a resource](category#how-the-stage-work). 
+[Stages are the workflow of a Resource. The Resource Category determines the Stages for that Resource and their order](category#how-the-stage-work). 
 
 <Screenshot image="/screenshot/resource_stages_box.png">
 </Screenshot>
 
-Members do not need to use this tool. All Member-related actions can be done in the [files](#files) section including:
- 1. Checkout / Check-in files
+Members do not need to use this tool. All Member-related actions for Resources can be done in the [Files](#files) section. including:
+ 1. Check Out / Check In files.
  2. Mark the Stage complete and advance to the next Stage.
 
  Supervisors and Admins can move the Stage manually with this tool. Supervisors can also assign a Member to each work Stage.
@@ -222,7 +222,7 @@ If this Resource is Referenced in other Resources, those Resources are also show
 
 The Reference Copier is a tool to save work in assigning the same reference to multiple Resources
 
-Open Reference Copier from the Reference Resources box by click this icon:
+You can open the Reference Copier from the Reference Resources box by clicking the paper icon:
 
 <Screenshot image="/screenshot/resource_ref_section.png">
   <ScreenshotMark x="17%" y="5%" width="6%" height="8%" textPosition="bottom-right" borderRadius="20px">
@@ -237,7 +237,7 @@ In Reference Copier there are two Resource sections, one on the left and one on 
   </ScreenshotMark>
 </Screenshot>
 
-Once there are two Resources selected in the dialog box, the Reference resources of each are listed below. Click the arrow button beside the Reference to copy one by one, or click the arrow button on the top selected Resource to copy all its References to the other.
+Once there are two Resources selected in the dialog box, the Reference resources of each are listed below. Click the arrow button on the top selected Resource to copy all its References to the other Resource, or instead click the arrow button beside a specific Reference to copy one by one.
 
 <Screenshot image="/screenshot/reference_copier.png">
   <ScreenshotMark x="52.5%" y="28.5%" width="4.5%" height="9%" textPosition="top-right" borderRadius="25px">

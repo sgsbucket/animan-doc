@@ -39,9 +39,9 @@ Location:
 :::
 
 #### Steps
-1. Click "Add new Show" on the right of the page.
-1. Enter the name of the Show
-1. Click "Create"
+1. Click on "Add New Show" to the right of the page.
+1. Enter the name of the Show.
+1. Click the "Create" button.
 
 <Screenshot image="/screenshot/create_show.png">
   <ScreenshotMark x="84.5%" y="64%" width="30%" height="18%" textPosition="right" borderRadius="10px"></ScreenshotMark>
@@ -65,7 +65,7 @@ There are four modes of rendering:
  * **Preview**: Generates preview videos of shots.
  * **Thumbnail**: Generates thumbnails of Resources from their original image files.
  
-Admin users can turn rendering On or Off for each Episode. When set to On, Renderman will render online or offline Shots for production.
+Admin users can turn rendering On or Off for each Episode. When set to On, Renderman will render Online or Offline Shots for production.
 
 :::note
 The preview videos on Shot pages and the thumbnails on Resource pages will always render the latest revision, regardless of rendering being turned On or Off.
@@ -80,8 +80,8 @@ Location:
 - Page: Profile
 - Tab: Shows
 :::
-1. Click the + button on the right of the desired Show to list all Episodes of the Show.
-1. Click the checkboxes on the right of the desired Episode to turn rendering On or Off.
+1. Click the + button to the left of the desired Show to list all Episodes of the Show.
+1. Click the respective checkbox to the right of the desired Episode to turn rendering On or Off.
 
 <Screenshot image="/screenshot/create_show.png">
   <ScreenshotMark x="4.5%" y="75%" width="4%" height="10%" textPosition="right" borderRadius="50%"></ScreenshotMark>
@@ -100,7 +100,7 @@ Location:
 - Tab: Render Progress
 :::
 
-The rendering progress can be viewed in this tab. Render progress supports all four render modes: Online, Offline, Preview and Thumbnail.
+The rendering progress can be viewed in the Render Progress tab. Render progress is shown for all four render modes: Online, Offline, Preview and Thumbnail.
 
 Use the "Mode" drop-down menu to specify the rendering mode to view: Offline or Online.
 
@@ -117,7 +117,7 @@ Use the "Mode" drop-down menu to specify the rendering mode to view: Offline or 
   </ScreenshotMark>
 </Screenshot>
 
-All Episodes that have rendering turned on are listed on the top of the tab. Each Episode has a progress bar for a quick view at its status. Click on the Episode box to list the Shot rendering status for that Episode.
+All Episodes that have rendering turned on are listed below the "Mode" drop-down menu. Each Episode has a progress bar for a quick view at its status. Click on the Episode box to list the Shot rendering status for that Episode."
 
 Clicking on the column headings SHOT, TIME, or SIZE will sort the render table by that column's values.
 
@@ -130,7 +130,7 @@ Location:
 - Page: Show
 - Tab: Stats
 :::
-This page displays an overview of the progress of all Episode of a Show.
+Clicking on the "Stats" tab on a Show's page will display an overview of the progress of all Episodes of the Show.
 
 <Screenshot image="/screenshot/show_stats.png">
 </Screenshot>

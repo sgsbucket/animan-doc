@@ -12,7 +12,7 @@ Location:
 - Tab: Progress
 :::
 
-This page displays an Episode's progress. It is split into a left section for Shots and right section for Stages.
+This page displays an Episode's progress. It is split into a left section for Shots and a right section for Stages.
 
 <Screenshot image="/screenshot/episode_progress.png">
 </Screenshot>
@@ -39,9 +39,9 @@ The number on each box indicates there is additional information for the Shot. U
 
 ## Stage Section
 
-The right section lists the stages of the Shot Category. Each row represents a Stage.
+The right section lists the Stages of the Shot Category. Each row represents a Stage.
 
-A stage row is composed of 3 parts:
+A Stage row is composed of three parts:
 
 - Left side: Progress information, which can be displayed in two different ways:
 
@@ -51,10 +51,10 @@ A stage row is composed of 3 parts:
 
   2. Unassigned
 
-    Shows number of Shots in this Stage that are not currently assigned to a Member.
+    Shows the number of Shots in this Stage that are not currently assigned to a Member.
 
 - Middle: Stage Colour
 
   Users can click the colour box to change the colour.
 
-- Right: Stage Name
+- Right side: Stage Name
