@@ -24,7 +24,7 @@ There are two options for each Show to toggle:
 
   Notifications are sent when:
 
-  1. Cutup upload finishes
+  1. Cut-up upload finishes
 
      sent to Admin users
 

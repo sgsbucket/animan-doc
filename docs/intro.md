@@ -38,7 +38,7 @@ Animan works with its companion software [Renderman](/renderman/intro) to contro
 
 * [Add Members](/animan/member#add-member) to your studio, and [manage](/animan/member#member-role-and-privileges) users' privileges.
 * [Create a show](/animan/show#add-new-show).
-* [Upload a cutup](/renderman/upload_cutup) animatic to create an episode and its shots.
+* [Upload a cut-up](/renderman/upload_cutup) animatic to create an episode and its shots.
 * Ask Renderman to [render Online and Offline](/animan/show#rendering) quality shots.
 * Track work progress by [Member](/animan/quota), [category](/animan/show#show-stats), or [episode](/animan/episode_progress).
 
