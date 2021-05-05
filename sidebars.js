@@ -23,8 +23,8 @@ module.exports = {
           items: [
             'animan/show',
             'animan/episode',
-            'animan/category',
             'animan/resource',
+            'animan/category',
             'animan/shot',
             'animan/episode_progress',
           ],

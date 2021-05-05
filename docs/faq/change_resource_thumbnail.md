@@ -1,23 +1,23 @@
 ---
-title: I don't like the auto generated thumbnail that shows up for an asset.  Can I change it?
+title: I don't like the auto generated thumbnail for an asset.  Can I change it?
 ---
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-There is two ways to change the thumbnail of a resource.
+There are two ways to change the thumbnail of a Resource:
 
- 1. [Assign a frame of a animation shot](#assign-a-frame-of-a-animation-shot)
- 2. [Upload an image as the thumbnail](#upload-an-image-as-the-thumbnail)
+ 1. [Assign a frame of an animation Shot](#assign-a-frame-of-a-animation-shot)
+ 1. [Upload an image as the thumbnail](#upload-an-image-as-the-thumbnail)
 
-## Assign a frame of a animation shot
+## Assign a frame of an animation Shot.
 
-* This works only for animation shot.
+* Note: This option will only work for an animation Shot.
 
-Open the shot page, then
+Open the Shot page, then:
 
-1. click "Edit Shot" button
-2. change "The frame of thumb"
-3. click "Save".
+1. Click the "Edit Shot" button.
+1. Change the number input for "The frame of thumb".
+1. Click the "Save" button.
 
 You can preview the thumbnail before saving.
 
@@ -34,16 +34,15 @@ You can preview the thumbnail before saving.
 </Screenshot>
 
 
-## Upload an image as the thumbnail
+## Upload an image as the thumbnail.
 
-Open the resource page, then
+Open the Resource Page, then:
 
-1. Check out the resource
-2. Upload an image to "animatic.gif"
-3. Check in the reousrce
+1. Check out the Resource.
+2. Upload an image to "animatic.gif".
+3. Check-in the Resource.
 
-You can upload any web image format, like png, jpg, gif, etc..
-The resource will take any image uploaded to the "animatic.gif" as its thumbnail.
+You can upload any web image format, like png, jpg, gif, etc. The Resource will then take the image uploaded to the "animatic.gif" as its thumbnail.
 
 <Screenshot image="/screenshot/resource_file_section.png">
   <ScreenshotMark x="16.2%" y="49%" width="31%" height="35%" textPosition="bottom" borderRadius="10px">

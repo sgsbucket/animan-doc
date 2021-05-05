@@ -4,43 +4,45 @@ title: Quota
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-Quota is a progress monitor for Users.
-Admins and Supervisors can view and sort seconds of animation assigned to and completed by each User.
+The Quota Page is a progress monitor that shows the tasks and/or seconds of animation completed by each user, and the time taken to complete these actions. Admins and Supervisors can view and sort this information for each user.
 
-## Overview
+## Quota Overview for Supervisors/Admins
 :::info
-- Location: (page) Profile / (tab) Quota
+Role: Supervisor, Admin
+
+Location: 
+- Page: Profile
+- Tab: Quota
 :::
 
-This page lists by User, the seconds of animation completed within the selected time range.  Detail of each User's work by assigned shots is available via drop down.
+This page lists each user's seconds of animation completed within the selected date range for the selected Show. The details of each user's work is organized by Shot and are accessible by clicking on the highlighted row or the arrow to the far right of the row.
 
-Table columns:
+The Quota table has five columns:
 
-- **User**: the User
-- **Show**: selected Show
-- **Animation**: seconds of animation that the User worked on
-- **Tasks**: number of tasks (animation excluded) were done by the User
-- **Time**: approximate time the User worked on this task based on the duration of time the resource was checked out
+- **User**: The name of the user.
+- **Show**: Lists the Show(s) each user is working on. You can filter by show using the "Shows" drop-down above this table.
+- **Animation**: The seconds of animation that the user has worked on.
+- **Tasks**: The number of tasks (animation excluded) that have been completed by the user.
+- **Time**: The approximate time the user has checked out Resources related to animation or other tasks.
 
 <Screenshot image="/screenshot/profile_quota.png">
 </Screenshot>
 
-Clicking on a row of this table will expand the detail table of a User.
-The detail table lists all Resources that the User worked within the selected time range.
+Clicking on a row of this table will expand it to display the detail table for that user. The detail table lists all Resources that the user has worked on within the selected time range.
 
-Detail table columns:
-- **Show**: the Show of the Resource
-- **Resource**: the Resource
-- **Detail**: the Stage of the Resource that the User worked on
-- **Quota**: either task totals or seconds of animation
-- **Time**: approximate time the User worked on this task
-- **Date**: the time when the User submitted the work 
+The detail table has six columns:
+- **Show**: The Show that contains this Resource.
+- **Resource**: The Resource ID.
+- **Detail**: The stage of the Resource that the user worked on.
+- **Quota**: Either the task totals or seconds of animation related to this Resource.
+- **Time**: The approximate amount of time that the user worked on this task.
+- **Date**: The date when the user submitted the work.
 
 <Screenshot image="/screenshot/profile_quota_detail.png">
     <ScreenshotMark x="94.1%" y="11.4%" width="6%" height="19%" textPosition="right" borderRadius="20px"></ScreenshotMark>
 </Screenshot>
 
-Each row of the detailed table can be clicked to expand another table that list the work time and all checkout and checkin activities during the work.
+Each row of the detail table can be clicked on to reveal another table that lists the time of work and all check out and check-in activities during this work period.
 
 <Screenshot image="/screenshot/profile_quota_subdetail.png">
     <ScreenshotMark x="90%" y="35%" width="6%" height="14%" textPosition="right" borderRadius="20px"></ScreenshotMark>
@@ -48,37 +50,42 @@ Each row of the detailed table can be clicked to expand another table that list 
 
 ## User Quota
 :::info
-- Location: (page) User
+Role: Member, Supervisor, Admin
+
+Location: 
+- Page: User
 :::
 
-The User's name on the Quota page above links to the User's Quota page.
+The user's name on the Quota page links to that user's individual Quota page.
 
-There are three main tabs on this page.
-- [User Quota](#user-quota): (see below)
-- [Assigned Work](#assigned-work): show resources that are assigned to the User
-- [Submitted Work](#submitted-work): show resources that contains work of the User
+There are three main tabs on this page:
+- [User Quota](#user-quota)
+- [Assigned Work](#assigned-work)
+- [Submitted Work](#submitted-work)
 
 <Screenshot image="/screenshot/user_quota.png">
 </Screenshot>
 
 ## User Quota
 :::info
-- Location: (page) User / (tab) User Quota
+Role: Member, Supervisor, Admin
+
+Location: 
+- Page: User
+- Tab: User Quota
 :::
-User Quota page contains two sub tabs.
+A user's quota page contains two sub-tabs:
 - My Quota
 - My Work
 
 ### My Quota
-This tab shows the same table as the detailed table on the Quota Overview page. It shows
-all Resources that the User worked on within the selected time range.
-Clicking a row to views the history of checkout / checkin history of the resource.
+This tab shows the same detail table found on the Quota Overview page. It displays all Resources that the user has worked on within the selected time range. Clicking on a row reveals the check out/check-in history for that Resource in that time period.
 
 <Screenshot image="/screenshot/user_quota.png">
 </Screenshot>
 
 ### My Work
-This tab shows the file checkout/checkin history of the User.
+The My Work tab displays the check out/check-in history of the user.
 
 
 <Screenshot image="/screenshot/user_quota_mywork.png">
@@ -86,20 +93,28 @@ This tab shows the file checkout/checkin history of the User.
 
 ## Assigned Work
 :::info
-- Location: (page) User / (tab) Assigned Work
+Role: Member, Supervisor, Admin
+
+Location: 
+- Page: User
+- Tab: Assigned Work
 :::
 
-This tab shows the work that are assigned to this User.
+The Assigned Work tab displays all work that has been assigned to this user.
 
 <Screenshot image="/screenshot/user_quota_assigned-work.png">
 </Screenshot>
 
 ## Submitted Work
 :::info
-- Location: (page) User / (tab) Submitted Work
+Role: Member, Supervisor, Admin
+
+Location: 
+- Page: User
+- Tab: Submitted Work
 :::
 
-This tab shows the work that this User had worked on and had submitted for review.
+The Submitted Work tab displays the work that this user has worked on and submitted for review.
 
 <Screenshot image="/screenshot/user_quota_submitted-work.png">
 </Screenshot>
