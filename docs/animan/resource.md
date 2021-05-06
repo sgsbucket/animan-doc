@@ -135,7 +135,7 @@ To upload a file, the user first must check out the Resource. Once it is checked
 Supervisors can create a Checklist that appears to users when any file is uploaded or downloaded, depending on the Checklist. This is useful for any format or content checks and reminders that a Supervisor wants their users to keep in mind.
 
 <Screenshot image="/screenshot/resource_checklist_menu.png">
-  <ScreenshotMark x="76%" y="21%" width="10%" height="22%" textPosition="top" borderRadius="20px">
+  <ScreenshotMark x="85%" y="21%" width="11%" height="25%" textPosition="top" borderRadius="20px">
   </ScreenshotMark>
 </Screenshot>
 
