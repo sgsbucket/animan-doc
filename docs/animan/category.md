@@ -62,7 +62,7 @@ There are three components to a Stage:
 The Stage name.
 
 #### Type
-The stage type
+The stage type:
 
 - Work Stage
   
@@ -81,7 +81,7 @@ The Stage colour.
 
 In some overview pages, the Stage colour can help Supervisors quickly understand the progress of Resources and Shots.
 
-<Screenshot image="/screenshot/Episode_work_progress.png">
+<Screenshot image="/screenshot/episode_work_progress.png">
   <ScreenshotComment><a href="episode_progress">Work progress page of an Episode</a></ScreenshotComment>
 </Screenshot>
 
@@ -114,7 +114,7 @@ If a Resource is checked out, no user except the one who checked it out can modi
 Always check out a Resource before downloading its file so that you have the latest version to work on.
 :::
 
-Once the work is ready to be reviewed, the Member should upload the file, check in the Resource, and click the "Done [check icon]" button to advance to the next Stage.
+Once the work is ready to be reviewed, the Member should upload the file, check in the Resource, and click the "Done <Icon>done_outline</Icon>" button to advance to the next Stage.
 
 ### Review Stage
 When a Resource is on a Review Stage, the assigned Reviewers can download the file, Review it, and decide if the Resource can move to the next Stage.

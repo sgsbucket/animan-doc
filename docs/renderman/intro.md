@@ -84,4 +84,4 @@ Renderman wants to Render 4 types on things in order:
 1. Offline: Rendering Offline video clips that are stored on the Renderman PC(s).
 1. Rendering Online video clips that are stored on the Renderman PC(s).
 
-The input box for these types refers to the number of resources for each format and can allow Admin users to spread the workload (the default is 10). For example, an Admin user can set each of Thumb/Preview/Online to 1 and keep 10 on Offline to speed up Offline renders.
+The input box for these types refers to the number of resources for each format and can allow Admin users to spread the workload (the default is 10). For example, an Admin user can set each of Thumb/Preview/Online to 1 and keep 10 on Offline in order to speed up Offline renders.

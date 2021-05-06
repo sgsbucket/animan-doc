@@ -22,14 +22,14 @@ Notification preferences can be set by clicking the "Notification Preferences" b
     </ScreenshotMark>
 </Screenshot>
 
-There are two notifications options for each Show that can be enabled/disabled:
+There are two notification options for each Show that can be enabled/disabled:
 
 - Renderman Notifications
 
   Notifications are sent when:
 
   1. A Cut-up's upload is complete (sent to Admin users).
-  1. A preview has been rendered (sent to the Member/Supervisor of that resource/shot).
+  1. A preview has been rendered (sent to the Member/Supervisor of that Resource/Shot).
 
 - Stage Notification
 

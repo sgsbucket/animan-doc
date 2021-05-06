@@ -18,7 +18,7 @@ To send an invitation email, an Administrator can open the "Members" tab on the 
 
 ## How to Resend Invitation Email
 
-To resend an invitation email, an Administrator can open the "Members" tab on the Profile Page, locate the user, click the drop-down menu with their Role, and select the "SEND" option.
+To resend an invitation email, an Administrator can open the Members tab on the Profile Page, locate the user, click the drop-down menu with their Role, and select the "SEND" option.
 
 <Screenshot image="/screenshot/profile_member_resend_email.png">
   <ScreenshotMark x="79%" y="55.5%" width="22%" height="12%" textPosition="right" borderRadius="10px">

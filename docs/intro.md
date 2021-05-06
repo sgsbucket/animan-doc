@@ -20,14 +20,14 @@ Animan works with its companion software [Renderman](/renderman/intro) to help f
 
 ### If you are a Member, you can
 
-* View resources that are assigned to you, and [check out the file](/animan/resource#files) to work on.
+* View Resources that are assigned to you, and [check out the file](/animan/resource#files) to work on.
 * View and download [references](/animan/resource#references) for the Resource that you are working on.
 * Check in your revisied file for its preview to be rendered by Renderman.
 * Advance the Resource to its [next stage](/animan/resource#stages) next stage for review by the Supervisor.
 
 ### If you are a Supervisor, you can
 
-* [Manage resource categories.](/animan/category)
+* [Manage Resource categories.](/animan/category)
 * [Add](/animan/episode#insert-shot), [edit](/animan/episode#edit-shot), and [remove](/animan/shot#info) Resources and Shots.
 * [Add references](/animan/resource#references) to Resources and Shots.
 * [Assign work](/animan/category#what-is-a-work-stage) to Members.
@@ -40,7 +40,7 @@ Animan works with its companion software [Renderman](/renderman/intro) to help f
 * [Create a Show](/animan/show#add-new-show).
 * [Upload a Cut-up](/renderman/upload_cutup) animatic to create an Episode and its Shots.
 * Ask Renderman to [render Online and Offline](/animan/show#rendering) quality Shots.
-* Track work progress by [Member](/animan/quota), [category](/animan/show#show-stats), or [episode](/animan/Episode_progress).
+* Track work progress by [Member](/animan/quota), [Category](/animan/show#show-stats), or [Episode](/animan/Episode_progress).
 
 ### If you are a Client, you can
 

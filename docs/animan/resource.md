@@ -7,7 +7,7 @@ import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 A Resource is an asset definition that helps Animan manage images, sounds, and animation.
 
-Every Resource belongs to ONE "[Resource Category](category.md)". A Resource Category sets the default file format(s) for that Resource and what Work Stages the Resource must go through.
+Every Resource belongs to ONE [Resource Category](category.md). A Resource Category sets the default file format(s) for that Resource and what Work Stages the Resource must go through.
 
 ## Page Content
 
@@ -67,7 +67,7 @@ A Supervisor can add instructions and Notes for a Resource by clicking the "Note
 
 There are two types of Instructions:
 
-- Episode Notes:
+- **Episode Notes**
 
   These Notes apply to all Resources in the Episode.
 
@@ -75,7 +75,7 @@ There are two types of Instructions:
 
   <Screenshot image="/screenshot/episode_notes.png"></Screenshot>
 
-- Show Notes:
+- **Show Notes**
 
   These Notes apply to all Resources in the Show.
 
@@ -139,7 +139,7 @@ Supervisors can create a Checklist that appears to users when any file is upload
   </ScreenshotMark>
 </Screenshot>
 
-There are 5 Checklists that appear in different situations on which Supervisors can add items:
+There are five Checklists on which Supervisors can add items for Members to keep in mind. These Checklists are named after when they appear to a user:
 
 <Screenshot image="/screenshot/resource_edit_checklist.png">
   <ScreenshotMark x="92.1%" y="32%" width="5%" height="11%" textPosition="left" borderRadius="20px">

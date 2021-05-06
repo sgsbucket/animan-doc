@@ -74,7 +74,7 @@ Location:
 - Tab: Shots
 :::
 
-Editing a Shot is very similar to inserting a Shot. Click "Edit" from the same [three dot icon] button found on the top right of a Shot's thumbnail to bring up the editing dialog box.
+Editing a Shot is very similar to inserting a Shot. Click "Edit" from the same <Icon>more_vert</Icon> button found on the top right of a Shot's thumbnail to bring up the editing dialog box.
 
 <Screenshot image="/screenshot/episode_shows_options.png">
     <ScreenshotMark x="57%" y="51.5%" width="18%" height="10%" textPosition="right" borderRadius="10px"></ScreenshotMark>
@@ -82,7 +82,7 @@ Editing a Shot is very similar to inserting a Shot. Click "Edit" from the same [
 
 Here you can change the animatic (.mp4), the audio (.wav), or both.
 
-If either the new .wav or .mp4 has a different length from the original Shot length, you must provide both the animatic (.mp4) and audio (.wav), as well as provide the correct frames number in the ***Frames*** field.
+If either the new .wav or .mp4 has a different length from the original Shot length, you must provide both the animatic (.mp4) and audio (.wav), as well as provide the correct frames number in the Frames field.
 
 ## Quick Assign Worker
 :::info
@@ -94,7 +94,7 @@ Location:
 - Tab: Shots
 :::
 
-On the Shots page, check the **Detail** checkbox at the top right of the screen to drop down each Shot's detail box.
+On the Shots page, check the Detail checkbox at the top right of the screen to drop down each Shot's detail box.
 <Screenshot image="/screenshot/episode_shots_detail.png">
   <ScreenshotMark x="93.5%" y="24%" width="10%" height="8%" textPosition="right" borderRadius="10px"></ScreenshotMark>
   <ScreenshotMark x="29.2%" y="66%" width="4.6%" height="9%" textPosition="right" borderRadius="50%">

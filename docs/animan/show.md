@@ -4,7 +4,7 @@ title: Shows
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-A Show represents a series of Episodes, broken into Seasons, and includes the many Resources that are used in these Episodes.
+A Show represents a series of Episodes, collected into Seasons, and includes the many Resources that are used in these Episodes.
 
 Every Resource in Animan belongs to only one Show, but may be used for multiple Episodes within that Show. Resources can reference other Resources, but again only within a single Show.
 

@@ -7,9 +7,9 @@ import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 Each user is assigned the role of either Admin, Supervisor, or Member. Each role has set privileges for access to the content of Animan.
 
 - Member: Artists and animators creating Resources and animating Shots.
-- Supervisor: Assigning and reviewing the work of Members.
-- Admin: Controls the Animan backend and the privileges of Members, Supervisors, and Clients.
-- Client: View Shots and Resources for applicable Shows.
+- Supervisor: Users who assign work to and review the work of Members.
+- Admin: Users who control the Animan backend and the privileges of Members, Supervisors, and Clients.
+- Client: Users from outside the Studio who can view Shots and Resources for applicable Shows.
 
 ## Add Member
 
@@ -26,7 +26,7 @@ This function allows Admin users to assign the role of Member to an existing use
 
 #### Steps
 
-1. On the "Profile" page, select the "Members" tab.
+1. On the Profile page, select the Members tab.
 1. Click on the "+ User" button to search for a User.
 1. Enter the email or name of the user and click the "Search" button.
 1. Place your mouse cursor over the desired user and click the "Select >" button.
@@ -50,7 +50,7 @@ This function allows an Admin user to invite a new user to join your Studio. For
 
 #### Steps
 
-1. On the "Profile" page, select the "Members" tab.
+1. On the Profile page, select the Members tab.
 1. Click on the "+ Invite User" button.
 1. Enter the email address associated with the user's Google, Apple, Facebook, or Twitter account and then click the "Send Invitation" button.
 1. The user will then receive the invitation email, which contains a link to accept the Animan invitation. The user may have to check their Spam folder.
@@ -72,7 +72,7 @@ Location:
 
 Once a user has a role assigned to them, you can still change their role to give that user a different set of default privileges.
 
-1. On the "Profile" page, select the "Members" tab.
+1. On the Profile page, select the Members tab.
 1. Each user has a drop-down menu that allows you to switch their role.
 
 <Screenshot image="/screenshot/profile_members.png">
@@ -96,7 +96,7 @@ Each role has different default privileges:
 
 An Admin can also modify privileges for individual users:
 
-  1. On the "Profile" page, select the "Members" tab.
+  1. On the Profile page, select the Members tab.
   1. There is a button at the end of each user's row to edit privileges.
   1. Each Show has a checkbox for each privilege:
 
@@ -106,7 +106,7 @@ An Admin can also modify privileges for individual users:
 
 - Read: Toggles whether the Show appears to a user.
 - Edit Category: Toggles whether the user is able to edit the Categories of the Show (its stages, the users assigned to it, references, special notes, file types, boilerplate template files, etc.).
-- Edit Resource: Toggles whether the user is able to edit Resources of the Show (its title, tags, and the ability to delete the resource).
+- Edit Resource: Toggles whether the user is able to edit Resources of the Show (its title, tags, and the ability to delete the Resource).
 - Edit Episode: Toggles whether the user is able to edit Episodes of the Show (their titles and code labels).
 
 Click the floppy disk icon to save any changes or click outside the dialog box to exit without saving.
