@@ -32,13 +32,13 @@ Animan works with its companion software [Renderman](/renderman/intro) to help f
 * [Add references](/animan/resource#references) to Resources and Shots.
 * [Assign work](/animan/category#what-is-a-work-stage) to Members.
 * Review work and advance a Resource to the [next stage](/animan/category#how-the-stage-work) or request revisions.
-* [Give Notes](/animan/resource#add-check-list) when assigning work and requesting revisions.
+* [Give Notes](/animan/resource#add-checklist) when assigning work and requesting revisions.
 
 ### If you are an Admin, you can
 
 * [Add Members](/animan/member#add-member) to your Studio, and [manage](/animan/member#member-role-and-privileges) users' privileges.
 * [Create a Show](/animan/show#add-new-show).
-* [Upload a Cut-up](/renderman/upload_cutup) animatic to create an Episode and its Shots.
+* [Upload a Cut-Up](/renderman/upload_cutup) animatic to create an Episode and its Shots.
 * Ask Renderman to [render Online and Offline](/animan/show#rendering) quality Shots.
 * Track work progress by [Member](/animan/quota), [Category](/animan/show#show-stats), or [Episode](/animan/Episode_progress).
 

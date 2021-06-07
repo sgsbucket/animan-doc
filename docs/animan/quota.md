@@ -72,7 +72,7 @@ Role: Member, Supervisor, Admin
 
 Location: 
 - Page: User
-- Tab: User Quota
+- Tab: Quota
 :::
 A user's quota page contains two sub-tabs:
 - My Quota
@@ -84,8 +84,8 @@ This tab shows the same detail table found on the Quota Overview page. It displa
 <Screenshot image="/screenshot/user_quota.png">
 </Screenshot>
 
-### My Work
-The My Work tab displays the check out/check-in history of the user.
+### Quota
+The Quata tab displays the check out/check-in history of the user.
 
 
 <Screenshot image="/screenshot/user_quota_mywork.png">
@@ -97,10 +97,10 @@ Role: Member, Supervisor, Admin
 
 Location: 
 - Page: User
-- Tab: Assigned Work
+- Tab: Assigned
 :::
 
-The Assigned Work tab displays all work that has been assigned to this user.
+The Assigned tab displays all work that has been assigned to this user.
 
 <Screenshot image="/screenshot/user_quota_assigned-work.png">
 </Screenshot>
@@ -111,10 +111,24 @@ Role: Member, Supervisor, Admin
 
 Location: 
 - Page: User
-- Tab: Submitted Work
+- Tab: Submitted
 :::
 
-The Submitted Work tab displays the work that this user has worked on and submitted for review.
+The Submitted tab displays the work that this user has worked on and submitted for review.
 
 <Screenshot image="/screenshot/user_quota_submitted-work.png">
+</Screenshot>
+
+## Checked out Work
+:::info
+Role: Member, Supervisor, Admin
+
+Location: 
+- Page: User
+- Tab: Checked out
+:::
+
+The Checked out tab displays the resources that are currently checked out by this user.
+
+<Screenshot image="/screenshot/user_quota_checkedout-work.png">
 </Screenshot>

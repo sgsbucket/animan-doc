@@ -6,4 +6,4 @@ import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 Renderman always renders a Shot into png sequences, therefore the audio in a shot will always be ignored.
 
-Once Renderman renders a Shot from an .fla/.xstage into a png sequence, it then takes the audio from the Cut-up to export the final video complete with audio.
+Once Renderman renders a Shot from an .fla/.xstage into a png sequence, it then takes the audio from the Cut-Up to export the final video complete with audio.

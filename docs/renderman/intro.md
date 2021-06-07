@@ -41,7 +41,7 @@ You should set-up the Render PC(s) to auto-start Renderman when Windows loads. S
 Once Renderman is running, click the gear button in the top-right corner to bring up the configuration dialog.
 
 <Screenshot image="/screenshot/renderman_config.png">
-  <ScreenshotMark x="97.5%" y="5%" width="5%" height="9%" textPosition="bottom-left">Config button</ScreenshotMark>
+  <ScreenshotMark x="97.5%" y="4.2%" width="5%" height="7%" textPosition="bottom-left">Config button</ScreenshotMark>
 </Screenshot>
 
 In the dialog, fill in the correct path to each software executable.

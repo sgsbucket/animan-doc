@@ -24,6 +24,22 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+/* alert */
+.alert--info, .alert--warning {
+  color: black;
+}
+.alert--info h5, .alert--warning h5 {
+  color: black;
+}
+.alert--info svg, .alert--warning svg {
+  fill: black;
+  stroke: black;
+}
+.alert--success {
+  background-color: #006600;
+  border-color: #006600;
+}
+
 /* screenshot */
 .screenshot {
   position: relative;

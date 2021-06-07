@@ -56,7 +56,7 @@ This function allows an Admin user to invite a new user to join your Studio. For
 1. The user will then receive the invitation email, which contains a link to accept the Animan invitation. The user may have to check their Spam folder.
 
 <Screenshot image="/screenshot/profile_members.png">
-  <ScreenshotMark x="13.5%" y="85%" width="21%" height="13%" textPosition="right" borderRadius="10px"></ScreenshotMark>
+  <ScreenshotMark x="13.5%" y="87%" width="21%" height="13%" textPosition="right" borderRadius="10px"></ScreenshotMark>
 </Screenshot>
 
 ## Member Role and Privileges
@@ -76,7 +76,7 @@ Once a user has a role assigned to them, you can still change their role to give
 1. Each user has a drop-down menu that allows you to switch their role.
 
 <Screenshot image="/screenshot/profile_members.png">
-  <ScreenshotMark x="83.5%" y="49.2%" width="17%" height="11%" textPosition="right" borderRadius="10px"></ScreenshotMark>
+  <ScreenshotMark x="83%" y="50%" width="17%" height="11%" textPosition="right" borderRadius="10px"></ScreenshotMark>
 </Screenshot>
 
 Each role has different default privileges:
@@ -101,7 +101,7 @@ An Admin can also modify privileges for individual users:
   1. Each Show has a checkbox for each privilege:
 
 <Screenshot image="/screenshot/profile_members.png">
-  <ScreenshotMark x="93.6%" y="49.5%" width="5%" height="10%" textPosition="right" borderRadius="20px"></ScreenshotMark>
+  <ScreenshotMark x="93.1%" y="50.4%" width="5%" height="10%" textPosition="right" borderRadius="20px"></ScreenshotMark>
 </Screenshot>
 
 - Read: Toggles whether the Show appears to a user.

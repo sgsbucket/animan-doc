@@ -44,7 +44,7 @@ Location:
 1. Click the "Create" button.
 
 <Screenshot image="/screenshot/create_show.png">
-  <ScreenshotMark x="84.5%" y="64%" width="30%" height="18%" textPosition="right" borderRadius="10px"></ScreenshotMark>
+  <ScreenshotMark x="84.5%" y="64%" width="29%" height="20%" textPosition="right" borderRadius="10px"></ScreenshotMark>
 </Screenshot>
 
 Once a Show is created, it is assigned a short code. The short code is used in various places on Animan to represent the Show.
@@ -84,8 +84,8 @@ Location:
 1. Click the respective checkbox to the right of the desired Episode to turn rendering On or Off.
 
 <Screenshot image="/screenshot/create_show.png">
-  <ScreenshotMark x="4.5%" y="75%" width="4%" height="10%" textPosition="right" borderRadius="50%"></ScreenshotMark>
-  <ScreenshotMark x="58%" y="85%" width="22%" height="12%" textPosition="top" borderRadius="10px">
+  <ScreenshotMark x="4.8%" y="75.5%" width="4%" height="10%" textPosition="right" borderRadius="50%"></ScreenshotMark>
+  <ScreenshotMark x="59%" y="85.5%" width="22%" height="12%" textPosition="top" borderRadius="10px">
     Toggle Online/Offline Rendering
   </ScreenshotMark>
 </Screenshot>
@@ -105,14 +105,14 @@ The rendering progress can be viewed in the Render Progress tab. Render progress
 Use the "Mode" drop-down menu to specify the rendering mode to view: Offline or Online.
 
 <Screenshot image="/screenshot/show_render_progress.png">
-  <ScreenshotMark x="11.5%" y="21%" width="22%" height="15%" textPosition="right" borderRadius="10px">
+  <ScreenshotMark x="11.8%" y="20.5%" width="23%" height="15%" textPosition="right" borderRadius="10px">
     Choose mode to view progress.
   </ScreenshotMark>
-  <ScreenshotMark x="33.1%" y="32.3%" width="10%" height="9.5%" textPosition="right" borderRadius="8px">
+  <ScreenshotMark x="33.4%" y="32.3%" width="10%" height="9.5%" textPosition="right" borderRadius="8px">
     <div>Shows the progress of an Episode.</div>
     <div>Click to display the progress detail.</div>
   </ScreenshotMark>
-  <ScreenshotMark x="50%" y="80%" width="99%" height="36%" textPosition="top" borderRadius="8px">
+  <ScreenshotMark x="50%" y="81%" width="99%" height="37%" textPosition="top" borderRadius="8px">
     List render status of each Shot of the selected Episode.
   </ScreenshotMark>
 </Screenshot>

@@ -11,7 +11,7 @@ The invitation email is sent by a Studio administrator. If you did not get the e
 To send an invitation email, an Administrator can open the "Members" tab on the Profile page, where there is an "Invite Member" button at the bottom of the page.
 
 <Screenshot image="/screenshot/profile_members.png">
-  <ScreenshotMark x="15%" y="85%" width="25%" height="12%" textPosition="right" borderRadius="10px">
+  <ScreenshotMark x="15%" y="87%" width="25%" height="12%" textPosition="right" borderRadius="10px">
   </ScreenshotMark>
 </Screenshot>
 

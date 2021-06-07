@@ -17,7 +17,7 @@ Location: Profile
 Notification preferences can be set by clicking the "Notification Preferences" button in the "Account Info" box.
 
 <Screenshot image="/screenshot/profile_preferences.png">
-    <ScreenshotMark x="14.5%" y="9.8%" width="26%" height="7%" textPosition="right" borderRadius="10px">
+    <ScreenshotMark x="14.5%" y="10.5%" width="26%" height="7%" textPosition="right" borderRadius="10px">
     Click to open the dialog
     </ScreenshotMark>
 </Screenshot>
@@ -28,7 +28,7 @@ There are two notification options for each Show that can be enabled/disabled:
 
   Notifications are sent when:
 
-  1. A Cut-up's upload is complete (sent to Admin users).
+  1. A Cut-Up's upload is complete (sent to Admin users).
   1. A preview has been rendered (sent to the Member/Supervisor of that Resource/Shot).
 
 - Stage Notification
@@ -47,7 +47,7 @@ Location: Profile
 A user can change the email address associated with their account. However, users can still only login with Google, Apple, Facebook, or Twitter accounts, so the new email must be associated with one of those accounts.
 
 <Screenshot image="/screenshot/profile_user.png">
-    <ScreenshotMark x="78.5%" y="20%" width="22%" height="14%" textPosition="bottom" borderRadius="10px">
+    <ScreenshotMark x="80.5%" y="29%" width="21.5%" height="10%" textPosition="bottom" borderRadius="10px">
     Click to start the process
     </ScreenshotMark>
 </Screenshot>
