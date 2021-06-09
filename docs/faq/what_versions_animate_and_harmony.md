@@ -14,6 +14,8 @@ website: https://www.toonboom.com/products/harmony
 
 version: Harmony17 and up
 
+Note that Animan requires a single file for upload. Harmony creates a folder for each project. To prepare a Toon Boom Harmony asset for upload, first locate the folder that contains the .xstage file for that asset, and then compress the entire folder into a .zip.  That .zip is what should be uploaded to Animan.
+
 ### Adobe Animate
 
 website: https://www.adobe.com/ca/products/animate.html

@@ -6,10 +6,10 @@ import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 There are two ways to change the thumbnail of a Resource:
 
- 1. [Assign a frame of an animation Shot](#assign-a-frame-of-a-animation-shot)
- 1. [Upload an image as the thumbnail](#upload-an-image-as-the-thumbnail)
+ 1. [Select a frame of an animation Shot.](#select-a-frame-of-an-animation-shot.)
+ 1. [Upload an image.](#upload-an-image.)
 
-## Assign a frame of an animation Shot.
+## Select a frame of an animation Shot.
 
 * Note: This option will only work for an animation Shot.
 
@@ -34,7 +34,7 @@ You can preview the thumbnail before saving.
 </Screenshot>
 
 
-## Upload an image as the thumbnail.
+## Upload an image.
 
 Open the Resource Page, then:
 
