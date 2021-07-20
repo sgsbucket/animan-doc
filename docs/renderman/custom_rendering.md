@@ -41,6 +41,9 @@ There are four options in the Codec drop-down menu that change the quality of th
 1. Online
    
    There is no compression in this mode of rendering of Shots, resulting in final product quality.
+   Codec: DNxHD
+   Profile: dnxhr_444
+   Pixel format: yuv444p
 
 1. Offline
    

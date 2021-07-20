@@ -6,6 +6,23 @@ import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
 An Episode contains a sequence of Shots that produce the final broadcast video. You can see the Episodes of a Show by navigating to that Show. The Episodes tab will be activated by default and you can click any Episode number to see that Episode's information and Resources.
 
+## Edit Episode
+:::info
+Role: Supervisor
+
+Location: 
+
+- Page: Episode
+- Tab: Shots
+:::
+
+Supervisors can edit the name and season of any episode.
+
+Click the pencil icon beside the episode name to bring up a dialog for editing the Name and Season number of an episode.
+
+<Screenshot image="/screenshot/edit_episode.png">
+</Screenshot>
+
 ## Add Scene Script
 :::info
 Role: Supervisor

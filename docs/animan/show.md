@@ -49,7 +49,19 @@ Location:
 
 Once a Show is created, it is assigned a short code. The short code is used in various places on Animan to represent the Show.
 
+## Edit Show
+:::info
+Role: Admin
+
+Location: 
+
+- Page: Profile
+- Tab: Shows
+:::
+
 To edit the name or the short code of the Show, open the Show's page (for example, from the Profile page's Shows tab), click the triangle button beside the title of the Show, and click the "Edit" button.
+
+
 
 <Screenshot image="/screenshot/edit_show_name.png">
   <ScreenshotMark x="23%" y="16%" width="8%" height="12%" textPosition="right" borderRadius="50%"></ScreenshotMark>
