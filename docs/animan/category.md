@@ -94,6 +94,29 @@ These users have the privilege to assign the Work Stage to a Member.
 #### Member
 The Members who are eligible to be assigned work by the Assigner.
 
+### Assign Stage working candidates
+
+Assign candidate members to a stage, so those members can work on the resource.
+
+<Screenshot image="/screenshot/resource_stage_manage_candidates.png">
+  <ScreenshotMark x="71.5%" y="34%" width="4%" height="12%" textPosition="top-right">
+  Assign candidates
+  </ScreenshotMark>
+  <ScreenshotMark x="67.4%" y="34%" width="4%" height="12%" textPosition="top-left">
+  Remove all candidates
+  </ScreenshotMark>
+  <ScreenshotMark x="66.5%" y="68%" width="4%" height="12%" textPosition="right">
+  Remove a candidate
+  </ScreenshotMark>
+</Screenshot>
+
+When assigning candidates, you can select a group to fast select a group of pre-defined members.
+
+<Screenshot image="/screenshot/resource_stage_assign_candidates.png">
+  <ScreenshotMark x="38.8%" y="43.4%" width="6%" height="13%" textPosition="top-right">
+  Bring up member group manager
+  </ScreenshotMark>
+</Screenshot>
 
 ## How the Stages work
 

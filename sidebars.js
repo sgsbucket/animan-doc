@@ -15,6 +15,7 @@ module.exports = {
             'animan/member',
             'animan/quota',
             'animan/member_preference',
+            'animan/member_group',
           ],
         },
         {
