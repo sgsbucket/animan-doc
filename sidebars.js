@@ -52,6 +52,7 @@ module.exports = {
         'faq/change_resource_thumbnail',
         'faq/insert_shot_into_a_scene',
         'faq/what_happens_to_audio_in_a_shot',
+        'faq/xstage_use_embed_audio',
       ],
     },
   ],
