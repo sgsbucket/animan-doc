@@ -41,3 +41,15 @@ When the Edit Shot dialog box appears, you can drop a new .mp4 or .wav file into
 </Screenshot>
 
 Do not forget to click the "Save" button or else you can click outside the dialog box to exit without saving.
+
+## Shot Render Errors
+
+Render error notes are generated when Renderman has a problem creating rendering a Shot. To see details, turn on System Notes and hover over the render error.
+
+
+<Screenshot image="/screenshot/show_render_errors.png">
+  <ScreenshotMark x="95%" y="64.6%" width="8%" height="5%" textPosition="bottom-right" borderRadius="10px">
+  </ScreenshotMark>
+  <ScreenshotMark x="50%" y="93%" width="20%" height="7%" textPosition="bottom-right" borderRadius="10px">
+  </ScreenshotMark>
+</Screenshot>
