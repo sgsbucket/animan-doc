@@ -102,6 +102,9 @@ Assign candidate members to a stage, so those members can work on the resource.
   <ScreenshotMark x="71.5%" y="34%" width="4%" height="12%" textPosition="top-right">
   Assign candidates
   </ScreenshotMark>
+  <ScreenshotMark x="90%" y="34%" width="4%" height="12%" textPosition="top-right">
+  Batch assign candidates
+  </ScreenshotMark>
   <ScreenshotMark x="67.4%" y="34%" width="4%" height="12%" textPosition="top-left">
   Remove all candidates
   </ScreenshotMark>
@@ -115,6 +118,14 @@ When assigning candidates, you can select a group to fast select a group of pre-
 <Screenshot image="/screenshot/resource_stage_assign_candidates.png">
   <ScreenshotMark x="38.8%" y="43.4%" width="6%" height="13%" textPosition="top-right">
   Bring up member group manager
+  </ScreenshotMark>
+</Screenshot>
+
+Admins can batch assign users to stages across multiple shots using the batch assign interface.
+
+<Screenshot image="/screenshot/resource_category_batch_assign">
+  <ScreenshotMark x="95%" y="45%" width="6%" height="13%" textPosition="top-right">
+  Batch assign
   </ScreenshotMark>
 </Screenshot>
 

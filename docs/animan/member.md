@@ -126,8 +126,4 @@ Location:
 
 Members may edit their Display Name.  Edit by clicking the pencil icon to the right of the Display Name in the Account Info section of the Profile page.
 
-<Screenshot image="/screenshot/profile_member_rename.png">
-  <ScreenshotMark x="38.8%" y="43.4%" width="6%" height="13%" textPosition="top-right">
-  Edit Member display name.
-  </ScreenshotMark>
-</Screenshot>
+<Screenshot image="/screenshot/profile_member_rename.png"></Screenshot>
