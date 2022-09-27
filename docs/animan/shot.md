@@ -42,6 +42,17 @@ When the Edit Shot dialog box appears, you can drop a new .mp4 or .wav file into
 
 Do not forget to click the "Save" button or else you can click outside the dialog box to exit without saving.
 
+## Shot Codec
+
+Admins can set codec details of the shot category.
+
+<Screenshot image="/screenshot/resource_category_Codec.png">
+  <ScreenshotMark x="97.5%" y="66.5%" width="5%" height="10%" textPosition="bottom-left" borderRadius="25px">
+    Edit Online Codec
+  </ScreenshotMark>
+</Screenshot>
+
+
 ## Shot Render Errors
 
 Render error notes are generated when Renderman has a problem creating rendering a Shot. To see details, turn on System Notes and hover over the render error.

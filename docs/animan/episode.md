@@ -120,3 +120,25 @@ On the Shots page, check the Detail checkbox at the top right of the screen to d
 </Screenshot>
 
 The Shot's detail box displays all the Stages that need a Member's work. If a Stage does not have a Member assigned, the Supervisor can click the (?) button next to that Stage to quickly assign Member(s).
+
+## Batch Stage Set of All Shots in a Scene
+:::info
+Role: Supervisor
+
+Location: 
+
+- Page: Episode
+- Tab: Shots
+:::
+
+1. Go to the Shots Tab
+2. Click "Detail" in upper right and click "Allow Set Stage"
+<Screenshot image="/screenshot/shot_batch-set-stage-1.png">
+  <ScreenshotMark x="85%" y="37.8%" width="22%" height="8%" textPosition="right" borderRadius="10px"></ScreenshotMark>
+</Screenshot>
+
+3. Click the hamburger button below the scene name
+4. There is a new menu item called "batch set stage" that you can use to set stage for all shots in the scene
+<Screenshot image="/screenshot/shot_batch-set-stage-2.png">
+  <ScreenshotMark x="10%" y="83%" width="5%" height="8%" textPosition="right" borderRadius="10px"></ScreenshotMark>
+</Screenshot>

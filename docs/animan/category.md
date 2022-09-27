@@ -43,7 +43,16 @@ To open a Category page, select a Show, click the Categories tab, and click one 
 In the Categories tab of a Show page, you can click the "+" to add a new Resource Category. You will be asked to supply the following required assets:
 - Type: Asset or Funpack.
 - Name: Label for the Category.
-- Template: The type of file (e.g. concept, design, PSD, etc.).
+- Template: The type of file
+1. Adobe Animate
+2. Toon Boom Harmony
+3. Adobe After Effects
+4. Concept Art
+5. Design
+6. Photoshop (.psd and .png accepted)
+7. Storyboard
+8. Image
+9. Other Asset (accepts .zip, no thumbnail generated)
 - File Type: This is based on the template chosen.
 
 
@@ -156,4 +165,25 @@ back to the previous Stage and make an optional Comment.
 Once the work is approved, the Supervisor can click the <Icon>menu</Icon> button and select the "Approve <Icon>done_outline</Icon>" option from the drop-down menu to advance the Resource to the next Stage.
 
 <Screenshot image="/screenshot/resource_stages_box_actions.png">
+</Screenshot>
+
+### Animation Stage
+The Animation Stage has special significance.  It is what triggers Renderman to try to render video.  If there is no Animation Stage present then the resource will not be sent to Renderman.
+
+#### Moving the Animation Stage
+In the case of a workflow where video render is required at another stage, it possible to move the Renderman trigger.
+
+- Edit the Category
+- Shrink the view to 'display brief' 
+- Change the animation stage by clicking on a grayed out Animation Stage Icon
+
+<Screenshot image="/screenshot/resource_category_display_brief.png">
+  <ScreenshotMark x="6%" y="10%" width="6%" height="13%" textPosition="bottom-right">
+  Display Brief
+  </ScreenshotMark>
+<ScreenshotMark x="71.5%" y="55%" width="6%" height="13%" textPosition="top-right">
+  </ScreenshotMark>
+<ScreenshotMark x="71.5%" y="90%" width="6%" height="13%" textPosition="top-right">
+  Animation Stage
+  </ScreenshotMark>
 </Screenshot>
