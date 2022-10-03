@@ -52,6 +52,21 @@ Admins can set codec details of the shot category.
   </ScreenshotMark>
 </Screenshot>
 
+## Shot External ID
+
+For situations where Shot ID may be dictated by the nomenclature of a 3rd party studio, Shots may have an External ID set.  It is an additional unique identifier for a shot.
+
+<Screenshot image="/screenshot/shot_external_ID.png">
+  <ScreenshotMark x="44%" y="6%" width="12%" height="5%" textPosition="bottom" borderRadius="25px">
+    External ID
+  </ScreenshotMark>
+  <ScreenshotMark x="67%" y="39%" width="13%" height="5%" textPosition="bottom" borderRadius="25px">
+  </ScreenshotMark>  
+</Screenshot>
+
+Files may be exported using the External ID or Shot ID.
+
+
 
 ## Shot Render Errors
 

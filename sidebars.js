@@ -40,6 +40,7 @@ module.exports = {
         'renderman/upload_cutup',
         'renderman/custom_rendering',
         'renderman/export_show',
+        'renderman/export_shots',
       ]
     },
     {
