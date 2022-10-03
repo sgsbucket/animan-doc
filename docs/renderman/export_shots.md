@@ -1,41 +1,37 @@
 ---
-title: Export Show
+title: Export Shots
 ---
 import Icon from "@material-ui/core/Icon";
 import { Screenshot, ScreenshotMark } from "../../src/components/Screenshot"
 
-You can export a backup of a Show to a folder on the Renderman PC(s). The backup includes all Resource and Shot files, as well as a .json of all Resource metadata.
+Renderman provides a tool to export shots and name them according to custom rules.
 
 ## Start an Export
 
-On the Renderman Page, click the "Export" button to open the Export Show Page.
+On the Renderman Page, click the "Export Shots" button within the kebab menu.
 
-<Screenshot image="/screenshot/renderman.png">
-  <ScreenshotMark x="90.2%" y="18.8%" width="12%" height="9%" textPosition="bottom-left" focusDim="true"></ScreenshotMark>
+<Screenshot image="/screenshot/renderman_Export_shot.png">
+  <ScreenshotMark x="88%" y="52%" width="16%" height="15%" textPosition="bottom-left" focusDim="true"></ScreenshotMark>
 </Screenshot>
 
-On the Export Show Page:
+On the Export Shot Page:
 
-1. Choose a Show from the drop-down menu.
-1. Click the "Export" button.
+1. Choose a Show
+1. Select an Episode
+1. Select a Render Mode
+1. Decsribe the Filename Format
 
-<Screenshot image="/screenshot/renderman_export_show.png">
+<Screenshot image="/screenshot/renderman_Export_form.png">
 </Screenshot>
 
-## Export Options
+:::info
+Filename Format
+Using this field, Supervisors can create a file name template. The output video files will be named according to this template as they are generated.
 
-#### Include old versions of files
-
-By default, the export function only includes the latest file of each Resource. Checking this option will instead include all versions of the Resources.
-
-## Export Result
-
-The Export progress is displayed on the Renderman panel.
-
-<Screenshot image="/screenshot/renderman_export_show_result.png">
-</Screenshot>
-
-When the Export is complete, you can access the files in the "showexport/_the_show_code" folder inside Renderman workspace.
-
-<Screenshot image="/screenshot/renderman_export_show_files.png">
-</Screenshot>
+Filenames can contain text as well as variables.  Animan will insert resource meta information into filenames using the following variables.  Variables are differentaied from test when contained within curly braces.
+- {id} = The Shot ID
+- {act} = The Act
+- {scene} = The Scene
+- {shot} = The Shot
+- {ext_id} = The External ID
+:::
