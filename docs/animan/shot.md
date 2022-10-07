@@ -18,6 +18,38 @@ The Info section of a Shot page contains the animation information, and buttons 
   </ScreenshotMark>
 </Screenshot>
 
+## Video Playback
+
+### Animatic
+When a Show is first ingested, the animatic video is cut up into segments for each Shot.  The animatic version of the Shot can always be viewed by clicking animatic.
+
+<Screenshot image="/screenshot/shot_animatic.png">
+</Screenshot>
+
+### Preview & Preview in Sequence
+The preview is a quick, low resolution render of the latest version of the shot.
+<Screenshot image="/screenshot/shot_preview.png">
+  <ScreenshotMark x="32.5%" y="68%" width="17%" height="17%" textPosition="left" borderRadius="25px">
+  </ScreenshotMark>
+</Screenshot>
+
+Preview in Sequence adds the previous and next Shots into a playable sequence to show the Shot in context.  Use the (+) and (-) buttons to add and revove pre and post Shots.
+<Screenshot image="/screenshot/shot_preview_sequence.png">
+  <ScreenshotMark x="31.2%" y="93.8%" width="6.5%" height="5%" textPosition="left" borderRadius="25px">
+  </ScreenshotMark>
+    <ScreenshotMark x="87.7%" y="93.8%" width="6.5%" height="5%" textPosition="left" borderRadius="25px">
+  </ScreenshotMark>
+</Screenshot>
+
+
+### Onion Skin
+Clicking the Onion Skin button will stack the most recent version of the shot, at 40% alpha, over top of the second most recent.  This enables easy comparison of changes between versions.
+<Screenshot image="/screenshot/shot_preview_onionskin.png">
+  <ScreenshotMark x="87.7%" y="93.5%" width="5%" height="5%" textPosition="left" borderRadius="25px">
+    Onion Skin
+  </ScreenshotMark>
+</Screenshot>
+
 ## Active
 
 If the Active toggle is off, the Shot is considered removed from the Episode (users can still see the Shot listed on the Episode page). Also, the Shot will NOT be included in quota calculations, search results, and Render lists.
