@@ -25,6 +25,7 @@ module.exports = {
             'animan/show',
             'animan/episode',
             'animan/resource',
+            'animan/resource_tools',
             'animan/category',
             'animan/shot',
             'animan/episode_progress',
