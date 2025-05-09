@@ -40,7 +40,9 @@ Clicking **Download All** will prepare to download the selected resources sequen
 
 
 
-### Image to 3D AI Tool
+## AI Tool
+
+### Image to 3D
 
 We have connected an image to 3D LLM service to help artists.  It will try to convert an image into a 3d model and then import it back into animan.
 
