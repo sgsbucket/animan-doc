@@ -26,14 +26,14 @@
 
 /* alert */
 .alert--info, .alert--warning {
-  color: black;
+  color: var(--ifm-color-content);
 }
 .alert--info h5, .alert--warning h5 {
-  color: black;
+  color: var(--ifm-color-content);
 }
 .alert--info svg, .alert--warning svg {
-  fill: black;
-  stroke: black;
+  fill: var(--ifm-color-content);
+  stroke: var(--ifm-color-content);
 }
 .alert--success {
   background-color: #006600;
